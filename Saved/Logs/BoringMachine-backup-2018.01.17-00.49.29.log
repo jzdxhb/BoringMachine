@@ -1,0 +1,828 @@
+﻿Log file open, 01/17/18 00:46:01
+LogInit:Display: Running engine for game: BoringMachine
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-295163848) SRandInit(-295163848).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.099794
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:60034'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.20.0(build = 501061) feature version = 0. Client runs version (prod = 1).1.20.0(build = 501061) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/UE4_Version/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.16-16.46.02:581][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.16-16.46.02:581][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.16-16.46.02:590][  0]LogInit: Computer: DESKTOP-B7IJ9EN
+[2018.01.16-16.46.02:590][  0]LogInit: User: Liuxiang
+[2018.01.16-16.46.02:590][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.16-16.46.02:590][  0]LogInit: High frequency timer resolution =2.835941 MHz
+[2018.01.16-16.46.02:590][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.01.16-16.46.02:590][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.16-16.46.02:590][  0]LogMemory: Process Physical Memory: 278.14 MB used, 278.14 MB peak
+[2018.01.16-16.46.02:590][  0]LogMemory: Process Virtual Memory: 266.39 MB used, 266.39 MB peak
+[2018.01.16-16.46.02:590][  0]LogMemory: Physical Memory: 5743.89 MB used,  26893.51 MB free, 32637.40 MB total
+[2018.01.16-16.46.02:590][  0]LogMemory: Virtual Memory: 715.85 MB used,  26893.51 MB free, 134217728.00 MB total
+[2018.01.16-16.46.03:092][  0]LogInit: Using OS detected language (zh-CN).
+[2018.01.16-16.46.03:092][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.01.16-16.46.03:992][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.16-16.46.04:048][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.16-16.46.04:048][  0]LogD3D11RHI:       8074/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.16-16.46.04:074][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.01.16-16.46.04:074][  0]LogD3D11RHI:       128/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.16-16.46.04:077][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.16-16.46.04:077][  0]LogD3D11RHI:       0/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.16-16.46.04:077][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.16-16.46.04:087][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.16-16.46.04:087][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.16-16.46.04:087][  0]LogWindows: EnumDisplayDevices:
+[2018.01.16-16.46.04:088][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.16-16.46.04:088][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.16-16.46.04:088][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.16-16.46.04:088][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.16-16.46.04:089][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.16-16.46.04:089][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.16-16.46.04:089][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.16-16.46.04:090][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.16-16.46.04:090][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.16-16.46.04:090][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.16-16.46.04:090][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.16-16.46.04:090][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.16-16.46.04:128][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.16-16.46.04:138][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.16-16.46.04:181][  0]LogShaderCompilers: Guid format shader working directory is 4 characters bigger than the processId version (../../../../../UE4_Project/TEST/BoringMachine/Intermediate/Shaders/WorkingDirectory/8652/).
+[2018.01.16-16.46.04:181][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liuxiang/AppData/Local/Temp/UnrealShaderWorkingDir/2265F3874081E79668C963AD82DF8B17/'.
+[2018.01.16-16.46.04:181][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.16-16.46.05:269][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.16-16.46.05:321][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.16-16.46.05:377][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.16-16.46.05:428][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.16-16.46.05:486][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.16-16.46.05:555][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.16-16.46.05:612][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.16-16.46.05:669][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.16-16.46.05:719][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.16-16.46.05:775][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.16-16.46.05:828][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.16-16.46.05:882][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.16-16.46.05:944][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.16-16.46.06:009][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.16-16.46.06:062][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.16-16.46.06:177][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.16-16.46.06:177][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.16-16.46.06:223][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.16-16.46.06:314][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.16-16.46.06:348][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.16-16.46.06:398][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.16-16.46.06:453][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.16-16.46.06:508][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.16-16.46.06:568][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.16-16.46.06:568][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.16-16.46.07:070][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.16-16.46.07:166][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.16-16.46.07:167][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.16-16.46.07:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE4_Project/TEST/BoringMachine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.16-16.46.07:167][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.16-16.46.07:167][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE4_Project/TEST/BoringMachine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.16-16.46.07:167][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.16-16.46.07:184][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.16-16.46.07:197][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liuxiang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.16-16.46.07:211][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.16-16.46.07:212][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.16-16.46.07:213][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.16-16.46.07:213][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.16-16.46.07:588][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.16-16.46.07:654][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.16-16.46.07:828][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.16-16.46.07:873][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.16-16.46.07:929][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.16-16.46.07:929][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.16-16.46.07:929][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.16-16.46.08:487][  0]LogNetVersion: BoringMachine , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1412956445)
+[2018.01.16-16.46.08:550][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2018.01.16-16.46.08:642][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 4 prioritized culture(s) in 0.070439 seconds
+[2018.01.16-16.46.08:647][  0]LogUObjectArray: 34195 objects as part of root set at end of initial load.
+[2018.01.16-16.46.08:647][  0]LogUObjectAllocator: 7260640 out of 0 bytes used by permanent object pool.
+[2018.01.16-16.46.08:647][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.16-16.46.08:701][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.16-16.46.11:390][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.01.16-16.46.11:428][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.16-16.46.11:473][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.16-16.46.12:060][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.16-16.46.12:522][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.16-16.46.12:527][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.16-16.46.12:582][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.16-16.46.12:637][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.16-16.46.13:410][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.16-16.46.14:145][  0]LogEngine: Initializing Engine...
+[2018.01.16-16.46.14:160][  0]LogHMD: Oculus plugin initialized. Version: 4.16.3-3561208+++UE4+Release-4.16, LibOVR: 1.20.0, SDK: 1.12.0, built Jul 28 2017, 11:57:22
+[2018.01.16-16.46.14:387][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.16-16.46.14:387][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.16-16.46.14:527][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.16-16.46.14:547][  0]LogInit: XAudio2 using '扬声器/听筒 (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.01.16-16.46.14:643][  0]LogInit: FAudioDevice initialized.
+[2018.01.16-16.46.14:694][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.16-16.46.14:699][  0]LogInit: Texture streaming: Enabled
+[2018.01.16-16.46.14:791][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.16-16.46.15:035][  0]LogInit: Transaction tracking system initialized
+[2018.01.16-16.46.15:370][  0]BlueprintLog: New page: 编辑器加载
+[2018.01.16-16.46.16:362][  0]LocalizationService: 信息 本地化服务已被禁用
+[2018.01.16-16.46.17:099][  0]LogConsoleResponse:Display: 
+[2018.01.16-16.46.17:249][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.16-16.46.17:249][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.16-16.46.17:629][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/' took 0.01s
+[2018.01.16-16.46.18:366][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.16-16.46.18:366][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.16-16.46.18:366][  0]LightingResults: New page: 光照构建
+[2018.01.16-16.46.18:411][  0]MapCheck: New page: 地图检测
+[2018.01.16-16.46.18:411][  0]LightingResults: New page: 光照构建
+[2018.01.16-16.46.18:458][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.16-16.46.18:458][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.16-16.46.18:458][  0]LoadErrors:Error: 错误 /Engine/EngineSky/BP_Sky_Sphere : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.16-16.46.18:460][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.16-16.46.18:460][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.16-16.46.18:460][  0]LoadErrors:Error: 错误 /Engine/EngineSky/BP_Sky_Sphere : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.16-16.46.18:467][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.16-16.46.18:467][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.16-16.46.18:467][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.16-16.46.18:467][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.16-16.46.18:467][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.16-16.46.18:467][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.16-16.46.18:476][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.16-16.46.18:476][  0]LoadErrors: 信息 加载失败 /Game/TRT/FYTRT_1102/M/lambert58.lambert58 引用者 StaticMeshComponent_12
+[2018.01.16-16.46.18:476][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.16-16.46.18:476][  0]LoadErrors: 信息 加载失败 /Game/TRT/FYTRT_1102/M/lambert58.lambert58 引用者 StaticMeshComponent_12
+[2018.01.16-16.46.18:476][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.16-16.46.18:584][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.01.16-16.46.18:585][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.16-16.46.18:590][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.16-16.46.18:606][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.16-16.46.18:669][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时61.941毫秒完成。
+[2018.01.16-16.46.18:669][  0]LogFileHelpers: Loading map 'Template_Default' took 0.303
+[2018.01.16-16.46.18:729][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.16-16.46.18:817][  0]LogCollectionManager: Loaded 0 collections in 0.001079 seconds
+[2018.01.16-16.46.18:899][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Saved/Collections/' took 0.01s
+[2018.01.16-16.46.18:899][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/Developers/Liuxiang/Collections/' took 0.01s
+[2018.01.16-16.46.18:899][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/Collections/' took 0.01s
+[2018.01.16-16.46.18:899][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.16-16.46.18:910][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2343 classes and 497 folders.
+[2018.01.16-16.46.18:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.16-16.46.19:053][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.16-16.46.19:101][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.16-16.46.19:139][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.16-16.46.19:150][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.16-16.46.19:157][  0]LogSlate: Took 0.005679 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.16-16.46.19:159][  0]LogSlate: Took 0.000484 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.16-16.46.19:169][  0]LogSlate: Took 0.001140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.16-16.46.19:278][  0]LogRenderer: Reallocating scene render targets to support 1216x564 NumSamples 1 (Frame:1).
+[2018.01.16-16.46.19:398][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2018.01.16-16.46.19:466][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.16-16.46.19:467][  0]LogLoad: (Engine Initialization) Total time: 19.25 seconds
+[2018.01.16-16.46.19:467][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2018.01.16-16.46.19:467][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.16-16.46.19:467][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.16-16.46.19:485][  0]LogOcInput: OculusInput pre-init called
+[2018.01.16-16.46.19:503][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.20.0
+[2018.01.16-16.46.19:503][  0]LogHMD: Starting GearVRController plugin
+[2018.01.16-16.46.19:518][  0]LogAssetRegistry: Asset discovery search completed in 10.9901 seconds
+[2018.01.16-16.46.19:519][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.16-16.46.19:519][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2018.01.16-16.46.19:522][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.16-16.46.19:583][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.16-16.46.26:475][411]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.16-16.46.26:492][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial'
+[2018.01.16-16.46.26:492][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180114/NewMaterial'的文件。
+[2018.01.16-16.46.26:493][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/My/Metarial/20180114/NewMaterial
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:493][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/My/Metarial/20180115/Coal/Coal
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal_MAT_0'
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180115/Coal_MAT_0'的文件。
+[2018.01.16-16.46.26:493][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/My/Metarial/20180115/Coal_MAT_0
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:493][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/My/Metarial/20180116/coal_03
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180117/coal_05/coal_05'
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180117/coal_05/coal_05'的文件。
+[2018.01.16-16.46.26:493][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/My/Metarial/20180117/coal_05/coal_05
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法寻找到文件'/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.01.16-16.46.26:493][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/StarterContent/Materials/M_Metal_Burnished_Steel'的文件。
+[2018.01.16-16.46.26:493][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/StarterContent/Materials/M_Metal_Burnished_Steel
+[2018.01.16-16.46.26:494][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:494][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:494][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/Substance_Material/Materials/Other/Coal_MAT
+[2018.01.16-16.46.26:494][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:494][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:494][411]LoadErrors:Error: 错误 /Game/My/MAP/02 : 无法寻找到资源的文件。 /Game/My/Metarial/20180114/NewMaterial_Inst
+[2018.01.16-16.46.26:527][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial'
+[2018.01.16-16.46.26:527][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180114/NewMaterial'的文件。
+[2018.01.16-16.46.26:527][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:527][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:527][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:527][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal_MAT_0'
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180115/Coal_MAT_0'的文件。
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180117/coal_05/coal_05'
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/My/Metarial/20180117/coal_05/coal_05'的文件。
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法寻找到文件'/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/StarterContent/Materials/M_Metal_Burnished_Steel'的文件。
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:528][411]LogLinker:Warning: 无法在加载../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:536][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:536][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 20180114_dange_004_107
+[2018.01.16-16.46.26:536][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:537][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:537][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 20180114_dange_152
+[2018.01.16-16.46.26:537][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:537][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:537][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:537][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:537][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 20180114_dange_154
+[2018.01.16-16.46.26:537][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:538][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:538][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:538][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:538][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 20180114_dange_156
+[2018.01.16-16.46.26:538][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:538][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:538][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:539][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:539][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 20180114_dange_5
+[2018.01.16-16.46.26:539][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:539][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180117/coal_05/coal_05'
+[2018.01.16-16.46.26:539][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180117/coal_05/coal_05.coal_05 引用者 20180114_dimian_001_104
+[2018.01.16-16.46.26:539][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180117/coal_05/coal_05'的文件。
+[2018.01.16-16.46.26:539][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180117/coal_05/coal_05'
+[2018.01.16-16.46.26:539][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180117/coal_05/coal_05.coal_05 引用者 20180114_dimian_2
+[2018.01.16-16.46.26:539][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180117/coal_05/coal_05'的文件。
+[2018.01.16-16.46.26:539][411]LogLinker:Warning: 无法寻找到文件'/Game/StarterContent/Materials/M_Metal_Burnished_Steel'
+[2018.01.16-16.46.26:539][411]LoadErrors: 信息 加载失败 /Game/StarterContent/Materials/M_Metal_Burnished_Steel.M_Metal_Burnished_Steel 引用者 20180114_jiazi_001_82
+[2018.01.16-16.46.26:540][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/StarterContent/Materials/M_Metal_Burnished_Steel'的文件。
+[2018.01.16-16.46.26:540][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:540][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_10
+[2018.01.16-16.46.26:540][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:540][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:540][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_11
+[2018.01.16-16.46.26:540][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:540][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:540][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_12
+[2018.01.16-16.46.26:540][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:541][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial'
+[2018.01.16-16.46.26:541][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial.NewMaterial 引用者 20180114_plane_13
+[2018.01.16-16.46.26:541][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial'的文件。
+[2018.01.16-16.46.26:541][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:541][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_162
+[2018.01.16-16.46.26:541][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:541][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial'
+[2018.01.16-16.46.26:542][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial.NewMaterial 引用者 20180114_plane_18
+[2018.01.16-16.46.26:542][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial'的文件。
+[2018.01.16-16.46.26:542][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:542][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_3
+[2018.01.16-16.46.26:542][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:542][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:542][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_4
+[2018.01.16-16.46.26:542][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:542][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:543][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_5
+[2018.01.16-16.46.26:543][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:543][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:543][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_7
+[2018.01.16-16.46.26:543][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:543][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:543][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_8
+[2018.01.16-16.46.26:543][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:543][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180114/NewMaterial_Inst'
+[2018.01.16-16.46.26:543][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180114/NewMaterial_Inst.NewMaterial_Inst 引用者 20180114_plane_9
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180114/NewMaterial_Inst'的文件。
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:544][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_02_31
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:544][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_03_35
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:544][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_04_20
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:544][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:545][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_10
+[2018.01.16-16.46.26:545][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:545][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:545][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_101
+[2018.01.16-16.46.26:545][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:545][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:545][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_11
+[2018.01.16-16.46.26:545][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:545][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:546][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_12
+[2018.01.16-16.46.26:546][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:546][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:546][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_13
+[2018.01.16-16.46.26:546][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:546][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:546][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_14
+[2018.01.16-16.46.26:546][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:546][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:546][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_15
+[2018.01.16-16.46.26:546][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:547][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:547][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_16
+[2018.01.16-16.46.26:547][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:547][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:547][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_17
+[2018.01.16-16.46.26:547][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:547][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:547][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_18
+[2018.01.16-16.46.26:547][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:548][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:548][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_19
+[2018.01.16-16.46.26:548][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:548][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:548][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_27
+[2018.01.16-16.46.26:548][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:548][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:548][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_29
+[2018.01.16-16.46.26:548][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:548][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:548][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_3
+[2018.01.16-16.46.26:549][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:549][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:549][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_31
+[2018.01.16-16.46.26:549][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:549][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:549][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_32
+[2018.01.16-16.46.26:549][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:549][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:549][411]LoadErrors: 信息 加载失败 /Game/Substance_Material/Materials/Other/Coal_MAT.Coal_MAT 引用者 cavewall_33
+[2018.01.16-16.46.26:549][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:550][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:550][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_34
+[2018.01.16-16.46.26:550][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:550][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:550][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_35
+[2018.01.16-16.46.26:550][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:550][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:550][411]LoadErrors: 信息 加载失败 /Game/Substance_Material/Materials/Other/Coal_MAT.Coal_MAT 引用者 cavewall_36
+[2018.01.16-16.46.26:550][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:551][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:551][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_37
+[2018.01.16-16.46.26:551][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:551][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:551][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_38
+[2018.01.16-16.46.26:551][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:551][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:551][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_4
+[2018.01.16-16.46.26:551][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:552][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:552][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_40
+[2018.01.16-16.46.26:552][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:552][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:552][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_41
+[2018.01.16-16.46.26:552][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:552][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:552][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_42
+[2018.01.16-16.46.26:552][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:553][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal_MAT_0'
+[2018.01.16-16.46.26:553][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal_MAT_0.Coal_MAT_0 引用者 cavewall_43
+[2018.01.16-16.46.26:553][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal_MAT_0'的文件。
+[2018.01.16-16.46.26:553][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:553][411]LoadErrors: 信息 加载失败 /Game/Substance_Material/Materials/Other/Coal_MAT.Coal_MAT 引用者 cavewall_44
+[2018.01.16-16.46.26:553][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:553][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:554][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_45
+[2018.01.16-16.46.26:554][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:554][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:554][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 cavewall_5
+[2018.01.16-16.46.26:554][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:555][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:555][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_7
+[2018.01.16-16.46.26:555][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:555][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:555][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_85
+[2018.01.16-16.46.26:556][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:556][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:556][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 cavewall_9
+[2018.01.16-16.46.26:556][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:556][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:556][411]LoadErrors: 信息 加载失败 /Game/Substance_Material/Materials/Other/Coal_MAT.Coal_MAT 引用者 mound_01_122
+[2018.01.16-16.46.26:556][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:557][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:557][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_10
+[2018.01.16-16.46.26:557][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:557][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:557][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_11
+[2018.01.16-16.46.26:557][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:557][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:558][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_12
+[2018.01.16-16.46.26:558][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:558][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:558][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_124
+[2018.01.16-16.46.26:558][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:558][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:558][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_126
+[2018.01.16-16.46.26:558][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:559][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:559][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_128
+[2018.01.16-16.46.26:559][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:559][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:559][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_13
+[2018.01.16-16.46.26:559][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:560][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:560][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_130
+[2018.01.16-16.46.26:560][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:560][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:560][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_132
+[2018.01.16-16.46.26:560][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:560][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:561][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 mound_134
+[2018.01.16-16.46.26:561][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:561][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180116/coal_03'
+[2018.01.16-16.46.26:561][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180116/coal_03.coal_03 引用者 mound_136
+[2018.01.16-16.46.26:561][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180116/coal_03'的文件。
+[2018.01.16-16.46.26:561][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:561][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_138
+[2018.01.16-16.46.26:561][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:562][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:562][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_14
+[2018.01.16-16.46.26:562][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:562][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:562][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_15
+[2018.01.16-16.46.26:562][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:563][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:563][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_16
+[2018.01.16-16.46.26:563][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:563][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:563][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_17
+[2018.01.16-16.46.26:563][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:564][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:564][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_18
+[2018.01.16-16.46.26:564][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:564][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:564][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 mound_19
+[2018.01.16-16.46.26:564][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:565][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:565][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 rock_set_04_111
+[2018.01.16-16.46.26:565][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:565][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:565][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 rock_set_115
+[2018.01.16-16.46.26:565][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:566][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:566][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 rock_set_117
+[2018.01.16-16.46.26:566][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:566][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:566][411]LoadErrors: 信息 加载失败 /Game/Substance_Material/Materials/Other/Coal_MAT.Coal_MAT 引用者 rock_set_119
+[2018.01.16-16.46.26:566][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:566][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:566][411]LoadErrors: 信息 加载失败 /Game/Substance_Material/Materials/Other/Coal_MAT.Coal_MAT 引用者 rock_set_142
+[2018.01.16-16.46.26:567][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:567][411]LogLinker:Warning: 无法寻找到文件'/Game/Substance_Material/Materials/Other/Coal_MAT'
+[2018.01.16-16.46.26:567][411]LoadErrors: 信息 加载失败 /Game/Substance_Material/Materials/Other/Coal_MAT.Coal_MAT 引用者 rock_set_144
+[2018.01.16-16.46.26:567][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/Substance_Material/Materials/Other/Coal_MAT'的文件。
+[2018.01.16-16.46.26:567][411]LogLinker:Warning: 无法寻找到文件'/Game/My/Metarial/20180115/Coal/Coal'
+[2018.01.16-16.46.26:567][411]LoadErrors: 信息 加载失败 /Game/My/Metarial/20180115/Coal/Coal.Coal 引用者 rock_set_6
+[2018.01.16-16.46.26:567][411]LogLinker:Warning: 无法在加载NULL时寻找到资源'/Game/My/Metarial/20180115/Coal/Coal'的文件。
+[2018.01.16-16.46.26:608][411]LogAIModule: Creating AISystem for world 02
+[2018.01.16-16.46.26:628][411]Cmd: MAP LOAD FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/02.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.16-16.46.26:628][411]LightingResults: New page: 光照构建
+[2018.01.16-16.46.26:628][411]LoadErrors: New page: 正在加载地图： 02.umap
+[2018.01.16-16.46.26:629][411]MapCheck: New page: 地图检测
+[2018.01.16-16.46.26:629][411]LightingResults: New page: 光照构建
+[2018.01.16-16.46.26:645][411]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.16-16.46.26:670][411]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.16-16.46.26:734][411]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时63.885毫秒完成。
+[2018.01.16-16.46.26:734][411]LogFileHelpers: Loading map '02' took 0.107
+[2018.01.16-16.46.31:658][702]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (20180114_dimian_001)
+[2018.01.16-16.46.34:225][844]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.01.16-16.46.34:226][844]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.16-16.46.34:226][844]LogMaterial:Warning: 	SceneTexture expressions cannot be used in opaque materials
+[2018.01.16-16.46.42:417][330]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.16-16.46.42:590][331]Cmd: QUIT_EDITOR
+[2018.01.16-16.46.42:618][331]LogExit: Preparing to exit.
+[2018.01.16-16.46.43:643][331]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Content/' was aborted.
+[2018.01.16-16.46.43:657][331]LogExit: Editor shut down
+[2018.01.16-16.46.43:659][331]LogExit: Transaction tracking system shut down
+[2018.01.16-16.46.43:715][331]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.16-16.46.43:715][331]LogExit: Object subsystem successfully closed.
+[2018.01.16-16.46.43:742][331]LogD3D11RHI: Shutdown
+[2018.01.16-16.46.43:742][331]LogD3D11RHI: CleanupD3DDevice
+[2018.01.16-16.46.43:861][331]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.16-16.46.43:870][331]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2018.01.16-16.46.43:870][331]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2018.01.16-16.46.43:870][331]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2018.01.16-16.46.43:870][331]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2018.01.16-16.46.43:870][331]LogDirectoryWatcher: A directory notification for 'D:/UE4_Version/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.16-16.46.43:870][331]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2018.01.16-16.46.43:870][331]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2018.01.16-16.46.43:870][331]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2018.01.16-16.46.43:871][331]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Content/Collections/' was aborted.
+[2018.01.16-16.46.43:871][331]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Content/Developers/Liuxiang/Collections/' was aborted.
+[2018.01.16-16.46.43:871][331]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Saved/Collections/' was aborted.
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module Media (475)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2018.01.16-16.46.43:871][331]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2018.01.16-16.46.43:872][331]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2018.01.16-16.46.43:872][331]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2018.01.16-16.46.44:733][331]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2018.01.16-16.46.44:734][331]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2018.01.16-16.46.44:734][331]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2018.01.16-16.46.44:734][331]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2018.01.16-16.46.44:734][331]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2018.01.16-16.46.44:734][331]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2018.01.16-16.46.44:734][331]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2018.01.16-16.46.44:734][331]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2018.01.16-16.46.44:797][331]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.01.16-16.46.44:882][331]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.01.16-16.46.44:883][331]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.01.16-16.46.44:884][331]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.01.16-16.46.44:884][331]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.01.16-16.46.44:884][331]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.01.16-16.46.44:884][331]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.01.16-16.46.44:884][331]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.01.16-16.46.44:884][331]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.01.16-16.46.44:984][331]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.01.16-16.46.45:084][331]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2018.01.16-16.46.45:084][331]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.16-16.46.45:084][331]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.16-16.46.45:084][331]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.16-16.46.45:084][331]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.16-16.46.45:084][331]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.16-16.46.45:084][331]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.16-16.46.45:085][331]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.16-16.46.45:085][331]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.16-16.46.45:085][331]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.16-16.46.45:085][331]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.16-16.46.45:087][331]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.16-16.46.45:087][331]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.16-16.46.45:087][331]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.16-16.46.45:088][331]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.16-16.46.45:090][331]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.16-16.46.45:090][331]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.16-16.46.45:090][331]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.16-16.46.45:090][331]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.16-16.46.45:090][331]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.16-16.46.45:090][331]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.16-16.46.45:233][331]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.16-16.46.45:233][331]LogDirectoryWatcher: A directory notification for '../../../../../UE4_Project/TEST/BoringMachine/Content/' was aborted.
+[2018.01.16-16.46.45:233][331]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.16-16.46.45:233][331]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.16-16.46.45:235][331]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.16-16.46.45:715][331]LogDerivedDataCache: Shutdown
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.16-16.46.45:715][331]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.16-16.46.45:716][331]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.16-16.46.45:717][331]LogHMD: Oculus shutdown.
+[2018.01.16-16.46.45:717][331]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.16-16.46.45:717][331]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.16-16.46.45:717][331]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.16-16.46.45:717][331]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.16-16.46.45:717][331]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.16-16.46.45:717][331]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.16-16.46.45:717][331]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.16-16.46.45:717][331]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.16-16.46.45:717][331]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.16-16.46.45:717][331]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6AFA6B57-4438-B323-0D65-7F851F5EE434%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=ff1163694f33f79656fd72a56a9dd0c2%7C9b78482a5632474b97854dec7515c72e%7C457b8a5b-5b52-4830-b230-b39bec575c9b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.16-16.46.45:751][331]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.16-16.46.45:752][331]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.16-16.46.45:753][331]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.16-16.46.45:755][331]LogExit: Exiting.
+[2018.01.16-16.46.45:764][331]Log file closed, 01/17/18 00:46:45
