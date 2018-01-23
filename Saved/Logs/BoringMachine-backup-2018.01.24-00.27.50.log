@@ -1,0 +1,946 @@
+﻿Log file open, 01/23/18 23:56:01
+LogInit:Display: Running engine for game: BoringMachine
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1994065503) SRandInit(1994065503).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.107524
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:60034'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.20.0(build = 501061) feature version = 0. Client runs version (prod = 1).1.20.0(build = 501061) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/UE4_Version/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.23-15.56.02:503][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.23-15.56.02:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.23-15.56.02:512][  0]LogInit: Computer: DESKTOP-B7IJ9EN
+[2018.01.23-15.56.02:512][  0]LogInit: User: Liuxiang
+[2018.01.23-15.56.02:512][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.23-15.56.02:512][  0]LogInit: High frequency timer resolution =2.835936 MHz
+[2018.01.23-15.56.02:512][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.01.23-15.56.02:512][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.23-15.56.02:512][  0]LogMemory: Process Physical Memory: 278.14 MB used, 278.14 MB peak
+[2018.01.23-15.56.02:512][  0]LogMemory: Process Virtual Memory: 266.49 MB used, 266.49 MB peak
+[2018.01.23-15.56.02:512][  0]LogMemory: Physical Memory: 14127.05 MB used,  18510.34 MB free, 32637.40 MB total
+[2018.01.23-15.56.02:512][  0]LogMemory: Virtual Memory: 716.20 MB used,  18510.34 MB free, 134217728.00 MB total
+[2018.01.23-15.56.03:095][  0]LogInit: Using OS detected language (zh-CN).
+[2018.01.23-15.56.03:095][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.01.23-15.56.03:986][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.23-15.56.04:047][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.23-15.56.04:047][  0]LogD3D11RHI:       8081/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.23-15.56.04:076][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.01.23-15.56.04:076][  0]LogD3D11RHI:       128/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.23-15.56.04:079][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.23-15.56.04:079][  0]LogD3D11RHI:       0/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.23-15.56.04:079][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.23-15.56.04:091][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.23-15.56.04:091][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.23-15.56.04:091][  0]LogWindows: EnumDisplayDevices:
+[2018.01.23-15.56.04:091][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.23-15.56.04:091][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.23-15.56.04:092][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.23-15.56.04:092][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.23-15.56.04:093][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.23-15.56.04:093][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.23-15.56.04:093][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.23-15.56.04:093][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.23-15.56.04:093][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.23-15.56.04:093][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.23-15.56.04:093][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.23-15.56.04:094][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.23-15.56.04:130][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.23-15.56.04:159][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.23-15.56.04:204][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../UE4_Project/TEST/BoringMachine/Intermediate/Shaders/WorkingDirectory/21840/).
+[2018.01.23-15.56.04:204][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liuxiang/AppData/Local/Temp/UnrealShaderWorkingDir/BBA5B9E549D6674A03712AB2AE204C78/'.
+[2018.01.23-15.56.04:204][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.23-15.56.05:282][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.23-15.56.05:336][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.23-15.56.05:389][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.23-15.56.05:439][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.23-15.56.05:492][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.23-15.56.05:540][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.23-15.56.05:594][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.23-15.56.05:645][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.23-15.56.05:689][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.23-15.56.05:736][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.23-15.56.05:785][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.23-15.56.05:841][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.23-15.56.05:891][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.23-15.56.05:940][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.23-15.56.05:991][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.23-15.56.06:098][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.23-15.56.06:098][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.23-15.56.06:136][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.23-15.56.06:229][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.23-15.56.06:257][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.23-15.56.06:308][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.23-15.56.06:359][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.23-15.56.06:409][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.23-15.56.06:461][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.23-15.56.06:461][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.23-15.56.06:932][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.23-15.56.07:034][  0]LogDerivedDataCache: Loaded boot cache 0.10s 101MB C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.23-15.56.07:034][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.23-15.56.07:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE4_Project/TEST/BoringMachine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.23-15.56.07:034][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.23-15.56.07:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE4_Project/TEST/BoringMachine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.23-15.56.07:034][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.23-15.56.07:051][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.23-15.56.07:064][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liuxiang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.23-15.56.07:074][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.23-15.56.07:074][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.23-15.56.07:075][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.23-15.56.07:075][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.23-15.56.07:463][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.23-15.56.07:555][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.23-15.56.07:717][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.23-15.56.07:761][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.23-15.56.07:815][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.23-15.56.07:815][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.23-15.56.07:815][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.23-15.56.08:442][  0]LogNetVersion: BoringMachine , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1412956445)
+[2018.01.23-15.56.08:509][  0]LogAssetRegistry: FAssetRegistry took 0.0268 seconds to start up
+[2018.01.23-15.56.08:598][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 4 prioritized culture(s) in 0.070002 seconds
+[2018.01.23-15.56.08:603][  0]LogUObjectArray: 34195 objects as part of root set at end of initial load.
+[2018.01.23-15.56.08:603][  0]LogUObjectAllocator: 7260640 out of 0 bytes used by permanent object pool.
+[2018.01.23-15.56.08:603][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.23-15.56.08:664][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.23-15.56.11:438][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.01.23-15.56.11:471][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.23-15.56.11:514][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.23-15.56.12:097][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.23-15.56.12:562][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.23-15.56.12:567][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.23-15.56.12:624][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.23-15.56.12:680][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.23-15.56.13:470][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.23-15.56.14:217][  0]LogEngine: Initializing Engine...
+[2018.01.23-15.56.14:233][  0]LogHMD: Oculus plugin initialized. Version: 4.16.3-3561208+++UE4+Release-4.16, LibOVR: 1.20.0, SDK: 1.12.0, built Jul 28 2017, 11:57:22
+[2018.01.23-15.56.14:499][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.23-15.56.14:500][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.23-15.56.14:636][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.23-15.56.14:652][  0]LogInit: XAudio2 using '扬声器/听筒 (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.01.23-15.56.14:747][  0]LogInit: FAudioDevice initialized.
+[2018.01.23-15.56.14:806][  0]LogDerivedDataCache: Saved boot cache 0.06s 101MB C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.23-15.56.14:819][  0]LogInit: Texture streaming: Enabled
+[2018.01.23-15.56.14:913][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.23-15.56.15:163][  0]LogInit: Transaction tracking system initialized
+[2018.01.23-15.56.15:489][  0]BlueprintLog: New page: 编辑器加载
+[2018.01.23-15.56.16:481][  0]LocalizationService: 信息 本地化服务已被禁用
+[2018.01.23-15.56.17:200][  0]LogConsoleResponse:Display: 
+[2018.01.23-15.56.17:347][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.23-15.56.17:347][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.23-15.56.18:376][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/' took 0.04s
+[2018.01.23-15.56.18:424][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.23-15.56.18:424][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.23-15.56.18:425][  0]LightingResults: New page: 光照构建
+[2018.01.23-15.56.18:465][  0]MapCheck: New page: 地图检测
+[2018.01.23-15.56.18:465][  0]LightingResults: New page: 光照构建
+[2018.01.23-15.56.18:513][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.23-15.56.18:513][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.23-15.56.18:513][  0]LoadErrors:Error: 错误 /Engine/EngineSky/BP_Sky_Sphere : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.23-15.56.18:515][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.23-15.56.18:515][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.23-15.56.18:515][  0]LoadErrors:Error: 错误 /Engine/EngineSky/BP_Sky_Sphere : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.23-15.56.18:525][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.23-15.56.18:525][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.23-15.56.18:525][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.23-15.56.18:525][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.23-15.56.18:525][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.23-15.56.18:525][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.23-15.56.18:534][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.23-15.56.18:534][  0]LoadErrors: 信息 加载失败 /Game/TRT/FYTRT_1102/M/lambert58.lambert58 引用者 StaticMeshComponent_12
+[2018.01.23-15.56.18:534][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.23-15.56.18:534][  0]LoadErrors: 信息 加载失败 /Game/TRT/FYTRT_1102/M/lambert58.lambert58 引用者 StaticMeshComponent_12
+[2018.01.23-15.56.18:534][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.23-15.56.18:640][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.01.23-15.56.18:640][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.23-15.56.18:645][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.23-15.56.18:662][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.23-15.56.18:719][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时57.35毫秒完成。
+[2018.01.23-15.56.18:719][  0]LogFileHelpers: Loading map 'Template_Default' took 0.295
+[2018.01.23-15.56.18:797][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.23-15.56.18:884][  0]LogCollectionManager: Loaded 0 collections in 0.001182 seconds
+[2018.01.23-15.56.18:967][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Saved/Collections/' took 0.01s
+[2018.01.23-15.56.18:967][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/Developers/Liuxiang/Collections/' took 0.01s
+[2018.01.23-15.56.18:967][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/Collections/' took 0.01s
+[2018.01.23-15.56.18:967][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.23-15.56.18:976][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2343 classes and 497 folders.
+[2018.01.23-15.56.19:044][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.01.23-15.56.19:110][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.23-15.56.19:159][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.23-15.56.19:197][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.23-15.56.19:206][  0]LogSlate: Took 0.000297 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.23-15.56.19:213][  0]LogSlate: Took 0.005011 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.23-15.56.19:214][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.23-15.56.19:219][  0]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.23-15.56.19:321][  0]LogRenderer: Reallocating scene render targets to support 1264x600 NumSamples 1 (Frame:1).
+[2018.01.23-15.56.19:496][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2018.01.23-15.56.19:569][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.23-15.56.19:569][  0]LogLoad: (Engine Initialization) Total time: 19.48 seconds
+[2018.01.23-15.56.19:569][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2018.01.23-15.56.19:569][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.23-15.56.19:569][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.23-15.56.19:587][  0]LogOcInput: OculusInput pre-init called
+[2018.01.23-15.56.19:611][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.20.0
+[2018.01.23-15.56.19:611][  0]LogHMD: Starting GearVRController plugin
+[2018.01.23-15.56.19:634][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.23-15.56.19:786][  1]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-15.56.19:984][  5]LogAssetRegistry: Asset discovery search completed in 11.4964 seconds
+[2018.01.23-15.56.20:000][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.23-15.56.20:000][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
+[2018.01.23-15.56.20:601][ 34]LogSlate: Took 0.000368 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-15.58.35:496][ 92]LogAIModule: Creating AISystem for world 06
+[2018.01.23-15.58.36:094][119]LogSlate: Took 0.000207 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-15.58.36:117][119]Cmd: MAP LOAD FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/06.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.23-15.58.36:117][119]LightingResults: New page: 光照构建
+[2018.01.23-15.58.36:118][119]LoadErrors: New page: 正在加载地图： 06.umap
+[2018.01.23-15.58.36:118][119]MapCheck: New page: 地图检测
+[2018.01.23-15.58.36:118][119]LightingResults: New page: 光照构建
+[2018.01.23-15.58.36:143][119]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.23-15.58.36:171][119]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.23-15.58.36:251][119]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时80.113毫秒完成。
+[2018.01.23-15.58.36:251][119]LogFileHelpers: Loading map '06' took 0.135
+[2018.01.23-15.59.12:341][269]LogAIModule: Creating AISystem for world 06_2
+[2018.01.23-15.59.17:957][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.23-15.59.18:506][591]LogSavePackage: Save=511.41ms
+[2018.01.23-15.59.18:506][591]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/079314D8FE449B621E715E3381CD09F19C.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.23-15.59.18:509][591]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap
+[2018.01.23-15.59.18:518][591]LogFileHelpers: Saving map '07' took 0.641
+[2018.01.23-15.59.20:666][636]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.23-15.59.21:127][636]LogSlate: Took 0.000398 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.23-15.59.21:246][636]LogSavePackage: Save=546.86ms
+[2018.01.23-15.59.21:246][636]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/07F9E5607A4EBCD2B983D4EE9FAF424A39.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.23-15.59.21:249][636]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap
+[2018.01.23-15.59.21:256][636]LogFileHelpers: Saving map '07' took 0.667
+[2018.01.23-15.59.21:258][636]Cmd: MAP LOAD FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.23-15.59.21:258][636]LightingResults: New page: 光照构建
+[2018.01.23-15.59.21:259][636]LoadErrors: New page: 正在加载地图： 07.umap
+[2018.01.23-15.59.21:261][636]MapCheck: New page: 地图检测
+[2018.01.23-15.59.21:261][636]LightingResults: New page: 光照构建
+[2018.01.23-15.59.21:285][636]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.23-15.59.21:313][636]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.23-15.59.21:392][636]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时78.589毫秒完成。
+[2018.01.23-15.59.21:393][636]LogFileHelpers: Loading map '07' took 0.135
+[2018.01.23-15.59.24:637][777]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.23-15.59.25:154][777]LogSavePackage: Save=499.97ms
+[2018.01.23-15.59.25:154][777]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/075FB7FF4A48EC03CEACA10A9D22FFBE65.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.23-15.59.25:157][777]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap
+[2018.01.23-15.59.25:175][777]LogFileHelpers: Saving map '07' took 0.617
+[2018.01.23-15.59.26:201][837]Cmd: MAP LOAD FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.23-15.59.26:201][837]LightingResults: New page: 光照构建
+[2018.01.23-15.59.26:202][837]LoadErrors: New page: 正在加载地图： 07.umap
+[2018.01.23-15.59.26:204][837]MapCheck: New page: 地图检测
+[2018.01.23-15.59.26:204][837]LightingResults: New page: 光照构建
+[2018.01.23-15.59.26:261][837]LogAIModule: Creating AISystem for world 07
+[2018.01.23-15.59.26:277][837]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.23-15.59.26:308][837]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.23-15.59.26:383][837]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时75.214毫秒完成。
+[2018.01.23-15.59.26:383][837]LogFileHelpers: Loading map '07' took 0.183
+[2018.01.23-16.01.42:579][135]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.23-16.01.42:679][135]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.01.23-16.01.45:456][291]LogMaterial: Missing cached shader map for material Aircraft_Interior_MAT, compiling. 
+[2018.01.23-16.01.45:552][293]LogMaterial: Missing cached shader map for material Aircraft_Metal_MAT, compiling. 
+[2018.01.23-16.01.45:887][310]LogMaterial: Missing cached shader map for material Barbwire_MAT, compiling. 
+[2018.01.23-16.01.48:133][438]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.23-16.01.48:133][438]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.23-16.02.00:596][184]LogMaterial: Missing cached shader map for material Car_paint_MAT, compiling. 
+[2018.01.23-16.02.04:286][402]LogMaterial: Missing cached shader map for material Corrugated_Metal_MAT, compiling. 
+[2018.01.23-16.02.04:818][432]LogMaterial: Missing cached shader map for material Diamond_Plate_MAT, compiling. 
+[2018.01.23-16.02.07:359][581]LogMaterial: Missing cached shader map for material Distressed_Iron_MAT, compiling. 
+[2018.01.23-16.02.07:619][593]LogMaterial: Missing cached shader map for material Dirty_Industrial_Steel_MAT, compiling. 
+[2018.01.23-16.02.08:103][618]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.02.08:205][618]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.02.08:331][618]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.02.08:351][618]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.02.08:391][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.02.08:398][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.02.08:404][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.02.08:410][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.02.08:416][618]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.02.08:429][618]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.23-16.02.08:653][619]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.23-16.02.11:061][745]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.02.11:061][745]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.02.11:061][745]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.02.11:061][745]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.02.24:497][498]LogActorFactory: Actor Factory created Cube
+[2018.01.23-16.02.25:159][533]LogActorFactory: Actor Factory created Cube
+[2018.01.23-16.02.38:376][ 50]LogMaterial: Missing cached shader map for material Corrugated_Steel_with_Worn_Paint_MAT, compiling. 
+[2018.01.23-16.02.38:406][ 50]LogMaterial: Missing cached shader map for material Corrugated_Tin_Plates_MAT, compiling. 
+[2018.01.23-16.02.38:482][ 51]LogMaterial: Missing cached shader map for material Dented_Copper_MAT, compiling. 
+[2018.01.23-16.03.15:607][194]LogMaterial: Missing cached shader map for material Dusty_Chrome_Advanced_MAT, compiling. 
+[2018.01.23-16.03.15:706][196]LogMaterial: Missing cached shader map for material Framed_Metal_002_MAT, compiling. 
+[2018.01.23-16.03.16:860][259]LogMaterial: Missing cached shader map for material Framed_Metal_001_MAT, compiling. 
+[2018.01.23-16.03.17:411][288]LogMaterial: Missing cached shader map for material Fencing_MAT, compiling. 
+[2018.01.23-16.03.27:081][846]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (20180122_dimian_001)
+[2018.01.23-16.03.28:555][931]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.01.23-16.03.32:701][172]Cmd: TRANSACTION UNDO
+[2018.01.23-16.03.32:701][172]LogEditorTransaction: Undo 创建Actors
+[2018.01.23-16.03.32:710][172]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.03.34:719][281]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.03.34:719][281]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.03.34:719][281]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.03.34:719][281]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.03.40:969][648]LogMaterial: Missing cached shader map for material Galvanized_Metal_MAT, compiling. 
+[2018.01.23-16.03.41:276][664]LogMaterial: Missing cached shader map for material Galvanized_MAT, compiling. 
+[2018.01.23-16.03.42:211][715]LogMaterial: Missing cached shader map for material Galvanized_001_MAT, compiling. 
+[2018.01.23-16.03.42:641][736]LogMaterial: Missing cached shader map for material Futuristic_Metal_Grid_MAT, compiling. 
+[2018.01.23-16.03.53:799][362]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (cavewall_6)
+[2018.01.23-16.03.57:622][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.01.23-16.04.20:224][917]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.01.23-16.04.33:732][708]LogMaterial: Missing cached shader map for material Galvanized_001_MAT, compiling. 
+[2018.01.23-16.04.36:632][876]LogMaterial: Missing cached shader map for material Escalator_001__Bitmap__MAT, compiling. 
+[2018.01.23-16.04.49:848][616]LogMaterial: Missing cached shader map for material Galvanized_001_MAT, compiling. 
+[2018.01.23-16.04.49:914][616]LogMaterial: Missing cached shader map for material Galvanized_001_MAT, compiling. 
+[2018.01.23-16.04.49:928][616]LogMaterial: Missing cached shader map for material Galvanized_001_MAT, compiling. 
+[2018.01.23-16.04.49:968][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.04.49:974][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.04.49:981][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.04.49:987][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.04.49:994][616]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.04.51:283][687]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.04.51:283][687]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.04.51:283][687]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.04.51:283][687]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.04.58:076][ 90]LogMaterial: Missing cached shader map for material Hammered_Iron_MAT, compiling. 
+[2018.01.23-16.04.59:986][199]LogMaterial: Missing cached shader map for material Medieval_Wood_wall_with_Metal_Grid_MAT, compiling. 
+[2018.01.23-16.05.00:545][227]LogMaterial: Missing cached shader map for material Knurled_Clean_Metal_MAT, compiling. 
+[2018.01.23-16.05.00:613][227]LogMaterial: Missing cached shader map for material Horizontal_Metal_Plates_MAT, compiling. 
+[2018.01.23-16.05.00:992][245]LogMaterial: Missing cached shader map for material Hammered_Steel_MAT, compiling. 
+[2018.01.23-16.05.12:198][878]LogMaterial: Missing cached shader map for material Gold_MAT, compiling. 
+[2018.01.23-16.05.15:103][ 46]LogMaterial: Missing cached shader map for material metal_004_MAT, compiling. 
+[2018.01.23-16.05.16:210][110]LogMaterial: Missing cached shader map for material Metal_003_MAT, compiling. 
+[2018.01.23-16.05.16:800][142]LogMaterial: Missing cached shader map for material Metal_002_MAT, compiling. 
+[2018.01.23-16.05.26:593][693]LogMaterial: Missing cached shader map for material metal_008_MAT, compiling. 
+[2018.01.23-16.05.27:125][722]LogMaterial: Missing cached shader map for material metal_007_MAT, compiling. 
+[2018.01.23-16.05.27:465][738]LogMaterial: Missing cached shader map for material Metal_006_MAT, compiling. 
+[2018.01.23-16.05.27:936][762]LogMaterial: Missing cached shader map for material metal_005_MAT, compiling. 
+[2018.01.23-16.05.42:302][590]LogMaterial: Missing cached shader map for material Metal_Diamond_Plates_Advanced_MAT, compiling. 
+[2018.01.23-16.05.46:498][834]LogMaterial: Missing cached shader map for material metal_floor_003_MAT, compiling. 
+[2018.01.23-16.05.46:853][853]LogMaterial: Missing cached shader map for material metal_floor_007_MAT, compiling. 
+[2018.01.23-16.05.48:834][966]LogMaterial: Missing cached shader map for material Metal_Floor_006_MAT, compiling. 
+[2018.01.23-16.06.01:611][705]LogMaterial: Missing cached shader map for material Metal_Floor_002_MAT, compiling. 
+[2018.01.23-16.06.01:903][720]LogMaterial: Missing cached shader map for material metal_floor_011_MAT, compiling. 
+[2018.01.23-16.06.07:942][ 70]LogMaterial: Missing cached shader map for material Metal_Meteoric_Iron_MAT, compiling. 
+[2018.01.23-16.06.12:500][340]LogMaterial: Missing cached shader map for material metal_plate_006_MAT, compiling. 
+[2018.01.23-16.06.13:379][390]LogMaterial: Missing cached shader map for material metal_plate_010_MAT, compiling. 
+[2018.01.23-16.06.14:753][467]LogMaterial: Missing cached shader map for material Metal_plate_armor_MAT, compiling. 
+[2018.01.23-16.06.15:463][504]LogMaterial: Missing cached shader map for material Metal_Rust_002_MAT, compiling. 
+[2018.01.23-16.06.17:763][634]LogMaterial: Missing cached shader map for material Metal_Rust_001_MAT, compiling. 
+[2018.01.23-16.06.29:048][270]LogMaterial: Missing cached shader map for material metal_plate_013_MAT, compiling. 
+[2018.01.23-16.06.34:304][579]LogMaterial: Missing cached shader map for material Metal_Shutter_001__Bitmap__MAT, compiling. 
+[2018.01.23-16.06.34:391][581]LogMaterial: Missing cached shader map for material Metal_Trim_Kit_MAT, compiling. 
+[2018.01.23-16.06.34:596][589]LogMaterial: Missing cached shader map for material Metal_Traction_Plate_MAT, compiling. 
+[2018.01.23-16.06.35:738][650]LogMaterial: Missing cached shader map for material Metal_scale_armor_MAT, compiling. 
+[2018.01.23-16.06.36:599][697]LogMaterial: Missing cached shader map for material Metal_Shutter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.06.47:452][310]LogMaterial: Missing cached shader map for material Metal_used_MAT, compiling. 
+[2018.01.23-16.06.57:135][876]LogMaterial: Missing cached shader map for material Nickel_MAT, compiling. 
+[2018.01.23-16.06.57:343][884]LogMaterial: Missing cached shader map for material Metallic_Paint_MAT, compiling. 
+[2018.01.23-16.06.57:944][916]LogMaterial: Missing cached shader map for material Metal_woven_MAT, compiling. 
+[2018.01.23-16.07.12:595][766]LogMaterial: Missing cached shader map for material Old_Painted_Metal_001__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.14:164][856]LogMaterial: Missing cached shader map for material Old_Metal_Door_001__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.14:655][880]LogMaterial: Missing cached shader map for material Old_Iron_001__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.32:135][888]LogMaterial: Missing cached shader map for material Old_Painted_Metal_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.33:334][956]LogMaterial: Missing cached shader map for material Painted_Corrugated_Metal_Advanced_MAT, compiling. 
+[2018.01.23-16.07.33:709][973]LogMaterial: Missing cached shader map for material Oxidizing_Bronze_MAT, compiling. 
+[2018.01.23-16.07.34:148][995]LogMaterial: Missing cached shader map for material Oxidized_Steel_MAT, compiling. 
+[2018.01.23-16.07.42:798][489]LogMaterial: Missing cached shader map for material Oxidized_Aluminium_MAT, compiling. 
+[2018.01.23-16.07.44:604][586]LogMaterial: Missing cached shader map for material Painted_steel_MAT, compiling. 
+[2018.01.23-16.07.47:072][729]LogMaterial: Missing cached shader map for material Platinum_MAT, compiling. 
+[2018.01.23-16.07.47:673][762]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.56:681][277]LogMaterial: Missing cached shader map for material Painted_Metal_MAT, compiling. 
+[2018.01.23-16.07.58:215][365]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.58:299][365]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.58:320][365]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.07.58:367][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.07.58:373][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.07.58:379][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.07.58:386][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.07.58:392][365]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.07.59:645][435]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.07.59:645][435]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.07.59:646][435]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.07.59:646][435]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.08.13:076][240]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.14:795][342]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.14:813][342]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.08.16:421][437]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.16:438][437]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.08.17:835][519]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.17:849][519]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.08.19:722][630]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.19:738][630]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.08.21:316][723]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.21:330][723]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.08.22:298][780]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.08.22:298][780]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.08.22:298][780]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.08.22:298][780]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.08.24:187][893]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.24:761][927]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.25:753][986]MaterialEditorStats: 信息 Base pass shader: 97 instructions
+[2018.01.23-16.08.25:753][986]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.08.25:753][986]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.08.25:753][986]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.08.27:955][118]LogMaterialEditor: Applying material Pewter_002__Bitmap__MAT
+[2018.01.23-16.08.28:557][118]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.28:609][118]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.28:641][118]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.28:688][118]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.29:482][118]TextureStreamingBuild:Display: Compiling optional shaders took 0.801 seconds.
+[2018.01.23-16.08.31:198][218]MaterialEditorStats: 信息 Base pass shader: 97 instructions
+[2018.01.23-16.08.31:198][218]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.08.31:198][218]MaterialEditorStats: 信息 Texture samplers: 7/16
+[2018.01.23-16.08.31:198][218]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.08.38:013][621]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.38:916][675]MaterialEditorStats: 信息 Base pass shader: 97 instructions
+[2018.01.23-16.08.38:916][675]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.08.38:916][675]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.08.38:916][675]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.08.39:002][680]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.39:904][734]MaterialEditorStats: 信息 Base pass shader: 97 instructions
+[2018.01.23-16.08.39:904][734]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.08.39:904][734]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.08.39:904][734]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.08.41:220][813]LogMaterialEditor: Saving and Compiling material Pewter_002__Bitmap__MAT
+[2018.01.23-16.08.41:806][813]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.41:850][813]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.41:874][813]LogMaterial: Missing cached shader map for material Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.41:917][813]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Pewter_002__Bitmap__MAT, compiling. 
+[2018.01.23-16.08.42:699][813]TextureStreamingBuild:Display: Compiling optional shaders took 0.788 seconds.
+[2018.01.23-16.08.44:223][813]LogSavePackage: Save=15.66ms
+[2018.01.23-16.08.44:223][813]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Pewter_002__Bitmap__MAT189B899C418C6621DA56EA9EE5B3A86D.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Pewter_002__Bitmap__MAT.uasset'
+[2018.01.23-16.08.44:226][813]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Pewter_002__Bitmap__MAT.uasset
+[2018.01.23-16.08.44:236][813]MaterialEditorStats: 信息 Base pass shader: 97 instructions
+[2018.01.23-16.08.44:236][813]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.08.44:236][813]MaterialEditorStats: 信息 Texture samplers: 7/16
+[2018.01.23-16.08.44:236][813]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.08.47:762][ 16]LogMaterial: Missing cached shader map for material Riveted_Plates_MAT, compiling. 
+[2018.01.23-16.08.49:569][121]LogMaterial: Missing cached shader map for material Rusted_Steel_MAT, compiling. 
+[2018.01.23-16.08.50:180][154]LogMaterial: Missing cached shader map for material Rugged_Iron_MAT, compiling. 
+[2018.01.23-16.08.59:804][711]LogMaterial: Missing cached shader map for material SciFi_Metal_Pattern_MAT, compiling. 
+[2018.01.23-16.09.00:112][726]LogMaterial: Missing cached shader map for material Rusty_Metal_MAT, compiling. 
+[2018.01.23-16.09.00:311][735]LogMaterial: Missing cached shader map for material Rusty_Metal_Floor_MAT, compiling. 
+[2018.01.23-16.09.00:950][769]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.13:408][495]LogMaterial: Missing cached shader map for material Silver_MAT, compiling. 
+[2018.01.23-16.09.14:346][549]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.14:445][549]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.14:464][549]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.14:508][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.09.14:515][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.09.14:523][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.09.14:531][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.09.14:539][549]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.09.15:918][627]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.09.15:918][627]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.09.15:918][627]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.09.15:918][627]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.09.20:762][917]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.22:263][  5]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.22:280][  5]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.09.23:601][ 82]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.23:625][ 82]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.09.25:084][167]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.25:099][167]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.09.27:302][296]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.27:317][296]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.09.29:539][427]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.29:557][427]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.09.30:906][506]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.09.30:906][506]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.09.30:906][506]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.09.30:906][506]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.09.34:321][710]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.34:817][739]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.35:990][809]MaterialEditorStats: 信息 Base pass shader: 97 instructions
+[2018.01.23-16.09.35:990][809]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.09.35:990][809]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.09.35:990][809]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.09.37:606][906]LogMaterialEditor: Saving and Compiling material Rusty_Iron_MAT
+[2018.01.23-16.09.38:219][906]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.38:263][906]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.38:292][906]LogMaterial: Missing cached shader map for material Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.38:338][906]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rusty_Iron_MAT, compiling. 
+[2018.01.23-16.09.39:161][906]TextureStreamingBuild:Display: Compiling optional shaders took 0.830 seconds.
+[2018.01.23-16.09.40:628][906]LogSavePackage: Save=16.34ms
+[2018.01.23-16.09.40:628][906]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Rusty_Iron_MAT6E26C9604FF3255C17FD72B63B88F038.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Rusty_Iron_MAT.uasset'
+[2018.01.23-16.09.40:632][906]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Rusty_Iron_MAT.uasset
+[2018.01.23-16.09.40:643][906]MaterialEditorStats: 信息 Base pass shader: 97 instructions
+[2018.01.23-16.09.40:643][906]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.09.40:643][906]MaterialEditorStats: 信息 Texture samplers: 7/16
+[2018.01.23-16.09.40:643][906]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.09.44:674][140]LogMaterial: Missing cached shader map for material Smooth_Oxidized_Iron_MAT, compiling. 
+[2018.01.23-16.09.45:587][190]LogMaterial: Missing cached shader map for material Steel_001__Bitmap__MAT, compiling. 
+[2018.01.23-16.09.49:756][433]LogMaterial: Missing cached shader map for material Woven_Metal_MAT, compiling. 
+[2018.01.23-16.09.49:879][435]LogMaterial: Missing cached shader map for material Woven_Metal_002_MAT, compiling. 
+[2018.01.23-16.09.51:022][496]LogMaterial: Missing cached shader map for material Wall_Steel_Sheet_MAT, compiling. 
+[2018.01.23-16.09.51:951][539]LogMaterial: Missing cached shader map for material Trashed_Steel_MAT, compiling. 
+[2018.01.23-16.10.10:245][603]LogMaterial: Missing cached shader map for material Titanium_001_MAT, compiling. 
+[2018.01.23-16.10.10:277][603]LogMaterial: Missing cached shader map for material Titanium_MAT, compiling. 
+[2018.01.23-16.10.14:996][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_MAT" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_MAT.uasset" SILENT=true
+[2018.01.23-16.10.15:011][874]LogSavePackage: Save=14.11ms
+[2018.01.23-16.10.15:011][874]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_MATF492D7AB4C8C26E2CDAFC2900E19EFA8.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_MAT.uasset'
+[2018.01.23-16.10.15:014][874]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_MAT.uasset
+[2018.01.23-16.10.15:162][874]LogSavePackage: Save=1.88ms
+[2018.01.23-16.10.15:162][874]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INSTC93112D74A2E4971C4762DA57FA61AB1.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Trashed_Steel_INST.uasset'
+[2018.01.23-16.10.15:163][874]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Trashed_Steel_INST.uasset
+[2018.01.23-16.10.20:540][194]LogMaterial: Missing cached shader map for material Trashed_Steel_MAT, compiling. 
+[2018.01.23-16.10.31:112][821]LogMaterial: Missing cached shader map for material Trashed_Steel_MAT, compiling. 
+[2018.01.23-16.10.31:181][821]LogMaterial: Missing cached shader map for material Trashed_Steel_MAT, compiling. 
+[2018.01.23-16.10.31:193][821]LogMaterial: Missing cached shader map for material Trashed_Steel_MAT, compiling. 
+[2018.01.23-16.10.31:232][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.10.31:238][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.10.31:244][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.10.31:251][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.10.31:257][821]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.10.32:467][887]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.10.32:467][887]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.10.32:467][887]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.10.32:467][887]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.10.39:540][305]LogMaterial: Missing cached shader map for material Steel_Sheet_MAT, compiling. 
+[2018.01.23-16.10.39:669][309]LogMaterial: Missing cached shader map for material Worn_Anvil_Iron_MAT, compiling. 
+[2018.01.23-16.11.33:110][473]LogMaterial: Missing cached shader map for material Trashed_Steel_MAT_0, compiling. 
+[2018.01.23-16.11.33:125][473]LogSubstanceCore:Warning: Material Duplicated for - Trashed_Steel_INST. Should now be added to asset list. Material Name - Trashed_Steel_MAT_0
+[2018.01.23-16.11.38:415][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.23-16.11.38:965][673]LogSavePackage: Save=525.41ms
+[2018.01.23-16.11.38:965][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/07E35F49474BC1762B58F51786885D25EE.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.23-16.11.38:968][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap
+[2018.01.23-16.11.38:987][673]LogFileHelpers: Saving map '07' took 0.787
+[2018.01.23-16.11.39:005][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Galvanized_001_MAT" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Galvanized_001_MAT.uasset" SILENT=true
+[2018.01.23-16.11.39:021][673]LogSavePackage: Save=14.64ms
+[2018.01.23-16.11.39:021][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Galvanized_001_MATAA7715114E9E0A27C880739A1FA6E816.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Galvanized_001_MAT.uasset'
+[2018.01.23-16.11.39:024][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Galvanized_001_MAT.uasset
+[2018.01.23-16.11.39:027][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset" SILENT=true
+[2018.01.23-16.11.39:030][673]LogSavePackage: Save=1.59ms
+[2018.01.23-16.11.39:030][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST1C9D2AC54DE4A12743DCE19231D3348D.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset'
+[2018.01.23-16.11.39:033][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset
+[2018.01.23-16.11.39:053][673]LogSavePackage: Save=6.67ms
+[2018.01.23-16.11.39:053][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_ambient_occlusion02BF63454BAFF18222FB78A564B0AEAD.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_ambient_occlusion.uasset'
+[2018.01.23-16.11.39:056][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_ambient_occlusion.uasset
+[2018.01.23-16.11.39:066][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_basecolor" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_basecolor.uasset" SILENT=true
+[2018.01.23-16.11.39:080][673]LogSavePackage: Save=12.52ms
+[2018.01.23-16.11.39:080][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_basecolor8AE7D747407495BBE6ECD4958589902E.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_basecolor.uasset'
+[2018.01.23-16.11.39:083][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_basecolor.uasset
+[2018.01.23-16.11.39:096][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_metallic" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_metallic.uasset" SILENT=true
+[2018.01.23-16.11.39:102][673]LogSavePackage: Save=5.29ms
+[2018.01.23-16.11.39:102][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_metallic90959B5B408CC9B2134A219FE7622690.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_metallic.uasset'
+[2018.01.23-16.11.39:106][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_metallic.uasset
+[2018.01.23-16.11.39:115][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_normal" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_normal.uasset" SILENT=true
+[2018.01.23-16.11.39:127][673]LogSavePackage: Save=9.97ms
+[2018.01.23-16.11.39:127][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_normalA6AD8BEF4E8480CC004402A9F39EF5FC.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_normal.uasset'
+[2018.01.23-16.11.39:130][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_normal.uasset
+[2018.01.23-16.11.39:143][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_roughness" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_roughness.uasset" SILENT=true
+[2018.01.23-16.11.39:158][673]LogSavePackage: Save=13.42ms
+[2018.01.23-16.11.39:158][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_roughnessA43F47144A0EDC7E5211A2A7A63783C5.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_roughness.uasset'
+[2018.01.23-16.11.39:160][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_roughness.uasset
+[2018.01.23-16.11.39:171][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_specular" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_specular.uasset" SILENT=true
+[2018.01.23-16.11.39:184][673]LogSavePackage: Save=11.51ms
+[2018.01.23-16.11.39:184][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_specularE5B117724E1269C6E48EF280D612D5B5.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_specular.uasset'
+[2018.01.23-16.11.39:187][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_specular.uasset
+[2018.01.23-16.11.39:202][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_MAT_0" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_MAT_0.uasset" SILENT=true
+[2018.01.23-16.11.39:218][673]LogSavePackage: Save=13.88ms
+[2018.01.23-16.11.39:218][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_MAT_06E6E91A848FE2A08753B17861C8D3741.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_MAT_0.uasset'
+[2018.01.23-16.11.39:220][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_MAT_0.uasset
+[2018.01.23-16.11.39:252][673]LogSavePackage: Save=15.67ms
+[2018.01.23-16.11.39:252][673]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_MAT1F074DE44F80A01086CE18889413C628.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Trashed_Steel_MAT.uasset'
+[2018.01.23-16.11.39:255][673]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Trashed_Steel_MAT.uasset
+[2018.01.23-16.12.16:261][608]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.12.16:307][608]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.12.16:340][608]LogMaterial: Missing cached shader map for material Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.12.16:390][608]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Diamond_Plates_Quad_MAT, compiling. 
+[2018.01.23-16.12.17:470][608]TextureStreamingBuild:Display: Compiling optional shaders took 1.088 seconds.
+[2018.01.23-16.13.16:276][852]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.23-16.13.16:289][852]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.01.23-16.13.21:738][175]LogMaterial: Missing cached shader map for material Scratched_Concrete_01_MAT, compiling. 
+[2018.01.23-16.13.22:827][237]LogMaterial: Missing cached shader map for material Scratched_concrete_00_MAT, compiling. 
+[2018.01.23-16.13.22:933][237]LogMaterial: Missing cached shader map for material Scratched_concrete_00_MAT, compiling. 
+[2018.01.23-16.13.22:953][237]LogMaterial: Missing cached shader map for material Scratched_concrete_00_MAT, compiling. 
+[2018.01.23-16.13.22:999][237]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.13.23:006][237]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.23-16.13.23:013][237]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.13.23:020][237]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.13.23:026][237]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.23-16.13.26:130][393]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.23-16.13.26:130][393]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.13.26:130][393]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.23-16.13.26:130][393]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.13.29:994][608]LogMaterial: Missing cached shader map for material Scratched_Concrete_01_MAT, compiling. 
+[2018.01.23-16.13.30:082][608]LogMaterial: Missing cached shader map for material Scratched_Concrete_01_MAT, compiling. 
+[2018.01.23-16.13.30:097][608]LogMaterial: Missing cached shader map for material Scratched_Concrete_01_MAT, compiling. 
+[2018.01.23-16.13.30:138][608]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.23-16.13.30:144][608]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.23-16.13.30:150][608]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.23-16.13.31:323][663]MaterialEditorStats: 信息 Base pass shader: 93 instructions
+[2018.01.23-16.13.31:323][663]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.23-16.13.31:323][663]MaterialEditorStats: 信息 Texture samplers: 4/16
+[2018.01.23-16.13.31:323][663]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.23-16.13.56:197][117]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../UE4_Project/TEST/BoringMachine/Plugins/. Error: 系统找不到指定的文件。 (0x00000002)
+[2018.01.23-16.15.26:509][453]Cmd: CLOSE_SLATE_MAINFRAME
+[2018.01.23-16.15.27:838][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.23-16.15.28:376][453]LogSavePackage: Save=519.97ms
+[2018.01.23-16.15.28:376][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/0758ECE7104648ACAE4D16D3BEFA20B8BE.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.23-16.15.28:379][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap
+[2018.01.23-16.15.28:397][453]LogFileHelpers: Saving map '07' took 0.763
+[2018.01.23-16.15.28:399][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset" SILENT=true
+[2018.01.23-16.15.28:407][453]LogSavePackage: Save=1.46ms
+[2018.01.23-16.15.28:407][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INSTF560548D4D4084F31CD245AA59E788C9.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset'
+[2018.01.23-16.15.28:410][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset
+[2018.01.23-16.15.28:424][453]LogSavePackage: Save=5.82ms
+[2018.01.23-16.15.28:424][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_ambient_occlusionA8965F504182B301665FB3A846F01EB1.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_ambient_occlusion.uasset'
+[2018.01.23-16.15.28:427][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_ambient_occlusion.uasset
+[2018.01.23-16.15.28:430][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_basecolor" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_basecolor.uasset" SILENT=true
+[2018.01.23-16.15.28:448][453]LogSavePackage: Save=10.63ms
+[2018.01.23-16.15.28:448][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_basecolor0FD5FDA04DA22656129272BDEBE936E3.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_basecolor.uasset'
+[2018.01.23-16.15.28:452][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_basecolor.uasset
+[2018.01.23-16.15.28:455][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_metallic" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_metallic.uasset" SILENT=true
+[2018.01.23-16.15.28:466][453]LogSavePackage: Save=5.17ms
+[2018.01.23-16.15.28:466][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_metallic242243BF4D8FDE5FBE2AA2B4A9A446DC.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_metallic.uasset'
+[2018.01.23-16.15.28:469][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_metallic.uasset
+[2018.01.23-16.15.28:471][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_normal" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_normal.uasset" SILENT=true
+[2018.01.23-16.15.28:483][453]LogSavePackage: Save=6.20ms
+[2018.01.23-16.15.28:483][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_normalE5E126D54405E5D979731F921EDCB4A0.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_normal.uasset'
+[2018.01.23-16.15.28:487][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_normal.uasset
+[2018.01.23-16.15.28:490][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_roughness" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_roughness.uasset" SILENT=true
+[2018.01.23-16.15.28:501][453]LogSavePackage: Save=4.96ms
+[2018.01.23-16.15.28:501][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_roughness2A4204F746C17D91D2A5EF92C9A8EC06.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_roughness.uasset'
+[2018.01.23-16.15.28:504][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_roughness.uasset
+[2018.01.23-16.15.28:507][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Trashed_Steel_INST_specular" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_specular.uasset" SILENT=true
+[2018.01.23-16.15.28:517][453]LogSavePackage: Save=3.21ms
+[2018.01.23-16.15.28:517][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Trashed_Steel_INST_specularE488E23649BB0030806210824FF7EA10.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_specular.uasset'
+[2018.01.23-16.15.28:520][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST_specular.uasset
+[2018.01.23-16.15.28:563][453]LogSavePackage: Save=14.63ms
+[2018.01.23-16.15.28:563][453]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Diamond_Plates_Quad_MAT9136B8524CFBF1179F539AB80768B42D.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Diamond_Plates_Quad_MAT.uasset'
+[2018.01.23-16.15.28:567][453]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/Substance_Material/Materials/Metal/Diamond_Plates_Quad_MAT.uasset
+[2018.01.23-16.15.28:628][453]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.01.23-16.15.28:824][454]Cmd: QUIT_EDITOR
+[2018.01.23-16.15.28:857][454]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (搜狗拼音输入法).
+[2018.01.23-16.15.28:878][454]LogExit: Preparing to exit.
+[2018.01.23-16.15.30:009][454]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Content/' was aborted.
+[2018.01.23-16.15.30:065][454]LogExit: Editor shut down
+[2018.01.23-16.15.30:067][454]LogExit: Transaction tracking system shut down
+[2018.01.23-16.15.30:230][454]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.23-16.15.30:230][454]LogExit: Object subsystem successfully closed.
+[2018.01.23-16.15.30:253][454]LogD3D11RHI: Shutdown
+[2018.01.23-16.15.30:253][454]LogD3D11RHI: CleanupD3DDevice
+[2018.01.23-16.15.30:452][454]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.23-16.15.30:463][454]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2018.01.23-16.15.30:463][454]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2018.01.23-16.15.30:463][454]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2018.01.23-16.15.30:463][454]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2018.01.23-16.15.30:463][454]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2018.01.23-16.15.30:463][454]LogDirectoryWatcher: A directory notification for 'D:/UE4_Version/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2018.01.23-16.15.30:464][454]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Content/Collections/' was aborted.
+[2018.01.23-16.15.30:464][454]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Content/Developers/Liuxiang/Collections/' was aborted.
+[2018.01.23-16.15.30:464][454]LogDirectoryWatcher: A directory notification for 'D:/UE4_Project/TEST/BoringMachine/Saved/Collections/' was aborted.
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2018.01.23-16.15.30:464][454]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module Media (475)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2018.01.23-16.15.30:465][454]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2018.01.23-16.15.31:189][454]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2018.01.23-16.15.31:190][454]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2018.01.23-16.15.31:190][454]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2018.01.23-16.15.31:190][454]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2018.01.23-16.15.31:190][454]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2018.01.23-16.15.31:254][454]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.01.23-16.15.31:500][454]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.01.23-16.15.31:501][454]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.01.23-16.15.31:501][454]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.01.23-16.15.31:501][454]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.01.23-16.15.31:502][454]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.01.23-16.15.31:602][454]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.01.23-16.15.31:703][454]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2018.01.23-16.15.31:720][454]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.23-16.15.31:720][454]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.23-16.15.31:720][454]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.23-16.15.31:720][454]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.23-16.15.31:720][454]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.23-16.15.31:720][454]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.23-16.15.31:720][454]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.23-16.15.31:721][454]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.23-16.15.31:721][454]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.23-16.15.31:721][454]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.23-16.15.31:723][454]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.23-16.15.31:723][454]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.23-16.15.31:723][454]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.23-16.15.31:723][454]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.23-16.15.31:723][454]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.23-16.15.31:723][454]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.23-16.15.31:724][454]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.23-16.15.31:725][454]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.23-16.15.31:725][454]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.23-16.15.31:725][454]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.23-16.15.31:725][454]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.23-16.15.31:725][454]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.23-16.15.31:725][454]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.23-16.15.32:033][454]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.23-16.15.32:033][454]LogDirectoryWatcher: A directory notification for '../../../../../UE4_Project/TEST/BoringMachine/Content/' was aborted.
+[2018.01.23-16.15.32:033][454]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.23-16.15.32:033][454]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.23-16.15.32:049][454]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.23-16.15.32:089][454]LogDerivedDataCache: Shutdown
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.23-16.15.32:089][454]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.23-16.15.32:091][454]LogHMD: Oculus shutdown.
+[2018.01.23-16.15.32:091][454]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.23-16.15.32:091][454]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.23-16.15.32:091][454]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.23-16.15.32:091][454]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.23-16.15.32:091][454]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.23-16.15.32:091][454]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.23-16.15.32:091][454]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.23-16.15.32:091][454]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.23-16.15.32:091][454]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.23-16.15.32:091][454]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1316C87D-4261-DFA8-208F-64A736CF4E93%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=ff1163694f33f79656fd72a56a9dd0c2%7C9b78482a5632474b97854dec7515c72e%7C457b8a5b-5b52-4830-b230-b39bec575c9b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.23-16.15.32:098][454]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.23-16.15.32:099][454]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.23-16.15.32:099][454]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.23-16.15.32:099][454]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.23-16.15.32:099][454]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.23-16.15.32:099][454]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.23-16.15.32:100][454]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.23-16.15.32:100][454]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.23-16.15.32:100][454]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.23-16.15.32:101][454]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.23-16.15.32:103][454]LogExit: Exiting.
+[2018.01.23-16.15.32:112][454]Log file closed, 01/24/18 00:15:32
