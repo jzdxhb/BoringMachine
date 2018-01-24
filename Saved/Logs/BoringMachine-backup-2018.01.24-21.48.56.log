@@ -1,0 +1,373 @@
+﻿Log file open, 01/24/18 21:42:19
+LogInit:Display: Running engine for game: BoringMachine
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(2053991044) SRandInit(2053991044).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.120833
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:60034'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/UE4_Version/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.24-13.42.20:427][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.24-13.42.20:427][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.24-13.42.20:438][  0]LogInit: Computer: DESKTOP-B7IJ9EN
+[2018.01.24-13.42.20:438][  0]LogInit: User: Liuxiang
+[2018.01.24-13.42.20:438][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.24-13.42.20:438][  0]LogInit: High frequency timer resolution =2.835941 MHz
+[2018.01.24-13.42.20:438][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.01.24-13.42.20:438][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.24-13.42.20:438][  0]LogMemory: Process Physical Memory: 273.26 MB used, 273.26 MB peak
+[2018.01.24-13.42.20:438][  0]LogMemory: Process Virtual Memory: 262.73 MB used, 262.73 MB peak
+[2018.01.24-13.42.20:438][  0]LogMemory: Physical Memory: 10666.09 MB used,  21971.30 MB free, 32637.40 MB total
+[2018.01.24-13.42.20:438][  0]LogMemory: Virtual Memory: 672.28 MB used,  21971.30 MB free, 134217728.00 MB total
+[2018.01.24-13.42.21:046][  0]LogInit: Using OS detected language (zh-CN).
+[2018.01.24-13.42.21:046][  0]LogInit: Using OS detected locale (zh-CN).
+[2018.01.24-13.42.22:024][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.24-13.42.22:087][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.24-13.42.22:087][  0]LogD3D11RHI:       8081/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.24-13.42.22:111][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.01.24-13.42.22:111][  0]LogD3D11RHI:       128/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.24-13.42.22:115][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.24-13.42.22:115][  0]LogD3D11RHI:       0/0/16318 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.24-13.42.22:115][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.24-13.42.22:125][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.24-13.42.22:125][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.24-13.42.22:125][  0]LogWindows: EnumDisplayDevices:
+[2018.01.24-13.42.22:125][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.24-13.42.22:125][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.24-13.42.22:126][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.24-13.42.22:126][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.24-13.42.22:126][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.24-13.42.22:126][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.24-13.42.22:127][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.01.24-13.42.22:127][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.24-13.42.22:127][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.24-13.42.22:127][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.24-13.42.22:127][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.24-13.42.22:127][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.24-13.42.22:162][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.24-13.42.22:189][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.24-13.42.22:233][  0]LogShaderCompilers: Guid format shader working directory is 3 characters bigger than the processId version (../../../../../UE4_Project/TEST/BoringMachine/Intermediate/Shaders/WorkingDirectory/14916/).
+[2018.01.24-13.42.22:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Liuxiang/AppData/Local/Temp/UnrealShaderWorkingDir/23D24D544C8D8A19815E8EB3353EDAD3/'.
+[2018.01.24-13.42.22:233][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.24-13.42.23:471][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.24-13.42.23:522][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.24-13.42.23:576][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.24-13.42.23:628][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.24-13.42.23:683][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.24-13.42.23:741][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.24-13.42.23:795][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.24-13.42.23:844][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.24-13.42.23:892][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.24-13.42.23:944][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.24-13.42.24:004][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.24-13.42.24:061][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.24-13.42.24:120][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.24-13.42.24:175][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.24-13.42.24:228][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.24-13.42.24:337][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.24-13.42.24:337][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.24-13.42.24:376][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.24-13.42.24:476][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.24-13.42.24:509][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.24-13.42.24:564][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.24-13.42.24:618][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.24-13.42.24:677][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.24-13.42.24:731][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.24-13.42.24:731][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.24-13.42.25:222][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.24-13.42.25:310][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.24-13.42.25:310][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.24-13.42.25:310][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../UE4_Project/TEST/BoringMachine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.24-13.42.25:310][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.24-13.42.25:310][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../UE4_Project/TEST/BoringMachine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.24-13.42.25:310][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.24-13.42.25:327][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.24-13.42.25:340][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Liuxiang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.24-13.42.25:351][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.24-13.42.25:351][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.24-13.42.25:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.24-13.42.25:352][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.24-13.42.25:757][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.24-13.42.25:820][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.24-13.42.25:993][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.24-13.42.26:041][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.24-13.42.26:098][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.24-13.42.26:098][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.24-13.42.26:098][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.24-13.42.26:654][  0]LogNetVersion: BoringMachine , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1412956445)
+[2018.01.24-13.42.26:719][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2018.01.24-13.42.26:822][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 4 prioritized culture(s) in 0.082848 seconds
+[2018.01.24-13.42.26:829][  0]LogUObjectArray: 34137 objects as part of root set at end of initial load.
+[2018.01.24-13.42.26:829][  0]LogUObjectAllocator: 7249640 out of 0 bytes used by permanent object pool.
+[2018.01.24-13.42.26:829][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.24-13.42.26:893][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.24-13.42.29:762][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.01.24-13.42.29:794][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.24-13.42.29:841][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.24-13.42.30:474][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.24-13.42.30:944][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.24-13.42.30:949][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.24-13.42.31:003][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.24-13.42.31:060][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.24-13.42.31:855][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.24-13.42.32:371][  0]LogEngine: Initializing Engine...
+[2018.01.24-13.42.32:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.24-13.42.32:586][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.24-13.42.32:726][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.24-13.42.32:740][  0]LogInit: XAudio2 using '扬声器/听筒 (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.01.24-13.42.32:844][  0]LogInit: FAudioDevice initialized.
+[2018.01.24-13.42.32:892][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Liuxiang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.24-13.42.32:903][  0]LogInit: Texture streaming: Enabled
+[2018.01.24-13.42.32:989][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.24-13.42.33:236][  0]LogInit: Transaction tracking system initialized
+[2018.01.24-13.42.33:595][  0]BlueprintLog: New page: 编辑器加载
+[2018.01.24-13.42.34:633][  0]LocalizationService: 信息 本地化服务已被禁用
+[2018.01.24-13.42.35:397][  0]LogConsoleResponse:Display: 
+[2018.01.24-13.42.35:568][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.24-13.42.35:568][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.24-13.42.35:977][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/' took 0.05s
+[2018.01.24-13.42.36:766][  0]SourceControl: 信息 源码控制已禁用
+[2018.01.24-13.42.36:766][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.24-13.42.36:766][  0]LightingResults: New page: 光照构建
+[2018.01.24-13.42.36:809][  0]MapCheck: New page: 地图检测
+[2018.01.24-13.42.36:809][  0]LightingResults: New page: 光照构建
+[2018.01.24-13.42.36:874][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.24-13.42.36:874][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.24-13.42.36:874][  0]LoadErrors:Error: 错误 /Engine/EngineSky/BP_Sky_Sphere : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.24-13.42.36:875][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.24-13.42.36:875][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.24-13.42.36:876][  0]LoadErrors:Error: 错误 /Engine/EngineSky/BP_Sky_Sphere : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.24-13.42.36:883][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.24-13.42.36:883][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.24-13.42.36:883][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.24-13.42.36:883][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.24-13.42.36:883][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.24-13.42.36:883][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.24-13.42.36:893][  0]LogLinker:Warning: 无法寻找到文件'/Game/TRT/FYTRT_1102/M/lambert58'
+[2018.01.24-13.42.36:893][  0]LoadErrors: 信息 加载失败 /Game/TRT/FYTRT_1102/M/lambert58.lambert58 引用者 StaticMeshComponent_12
+[2018.01.24-13.42.36:893][  0]LogLinker:Warning: 无法在加载../../../Engine/Content/Maps/Templates/Template_Default.umap时寻找到资源'/Game/TRT/FYTRT_1102/M/lambert58'的文件。
+[2018.01.24-13.42.36:893][  0]LoadErrors: 信息 加载失败 /Game/TRT/FYTRT_1102/M/lambert58.lambert58 引用者 StaticMeshComponent_12
+[2018.01.24-13.42.36:893][  0]LoadErrors:Error: 错误 /Engine/Maps/Templates/Template_Default : 无法寻找到资源的文件。 /Game/TRT/FYTRT_1102/M/lambert58
+[2018.01.24-13.42.37:039][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.01.24-13.42.37:040][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.24-13.42.37:046][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.24-13.42.37:061][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.24-13.42.37:127][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时65.797毫秒完成。
+[2018.01.24-13.42.37:127][  0]LogFileHelpers: Loading map 'Template_Default' took 0.361
+[2018.01.24-13.42.37:292][  0]LogCollectionManager: Loaded 0 collections in 0.002189 seconds
+[2018.01.24-13.42.37:380][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Saved/Collections/' took 0.01s
+[2018.01.24-13.42.37:380][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/Developers/Liuxiang/Collections/' took 0.01s
+[2018.01.24-13.42.37:380][  0]LogFileCache: Scanning file cache for directory 'D:/UE4_Project/TEST/BoringMachine/Content/Collections/' took 0.01s
+[2018.01.24-13.42.37:380][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.24-13.42.37:389][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2338 classes and 487 folders.
+[2018.01.24-13.42.37:465][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2018.01.24-13.42.37:539][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.24-13.42.37:600][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.24-13.42.37:685][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.24-13.42.37:692][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.24-13.42.37:696][  0]LogSlate: Took 0.003059 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.24-13.42.37:697][  0]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.24-13.42.37:703][  0]LogSlate: Took 0.000371 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.24-13.42.37:814][  0]LogRenderer: Reallocating scene render targets to support 1264x600 NumSamples 1 (Frame:1).
+[2018.01.24-13.42.37:933][  0]LogUObjectGlobals:Warning: 寻找对象'Class 无.'失败
+[2018.01.24-13.42.38:010][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.01.24-13.42.38:010][  0]LogLoad: (Engine Initialization) Total time: 19.52 seconds
+[2018.01.24-13.42.38:010][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.01.24-13.42.38:010][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.24-13.42.38:010][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.24-13.42.38:350][  0]LogHMD: Starting GearVRController plugin
+[2018.01.24-13.42.38:370][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.24-13.42.38:710][  1]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.24-13.42.39:386][  3]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.24-13.42.42:998][126]LogAssetRegistry: Asset discovery search completed in 16.3015 seconds
+[2018.01.24-13.42.43:015][126]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.24-13.42.43:015][126]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.01.24-13.43.36:787][336]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.24-13.43.37:503][336]LogAIModule: Creating AISystem for world 07
+[2018.01.24-13.43.37:552][336]Cmd: MAP LOAD FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/MAP/07.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.24-13.43.37:552][336]LightingResults: New page: 光照构建
+[2018.01.24-13.43.37:553][336]LoadErrors: New page: 正在加载地图： 07.umap
+[2018.01.24-13.43.37:554][336]MapCheck: New page: 地图检测
+[2018.01.24-13.43.37:554][336]LightingResults: New page: 光照构建
+[2018.01.24-13.43.37:626][336]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.24-13.43.37:655][336]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.24-13.43.37:744][336]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时89.524毫秒完成。
+[2018.01.24-13.43.37:746][336]LogFileHelpers: Loading map '07' took 0.195
+[2018.01.24-13.43.42:986][626]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2018.01.24-13.43.43:302][639]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.01.24-13.44.01:782][732]LogMaterial: Missing cached shader map for material _Ceramic_Roof_Tiles_with_Moss_MAT, compiling. 
+[2018.01.24-13.44.22:403][933]LogMaterial: Missing cached shader map for material Bark_003__Bitmap__MAT, compiling. 
+[2018.01.24-13.44.22:746][951]LogMaterial: Missing cached shader map for material Bark_002__Bitmap__MAT, compiling. 
+[2018.01.24-13.44.22:822][952]LogMaterial: Missing cached shader map for material Bark_001__Bitmap__MAT, compiling. 
+[2018.01.24-13.44.22:889][952]LogMaterial: Missing cached shader map for material Bare_Plaster_002_MAT, compiling. 
+[2018.01.24-13.44.22:947][952]LogMaterial: Missing cached shader map for material Bare_Plaster_001_MAT, compiling. 
+[2018.01.24-13.44.24:217][ 21]LogMaterial: Missing cached shader map for material Bark_003_MAT, compiling. 
+[2018.01.24-13.44.37:804][823]LogMaterial: Missing cached shader map for material Bathstone_Brick_MAT, compiling. 
+[2018.01.24-13.44.38:885][884]LogMaterial: Missing cached shader map for material Beach_Gravel_MAT, compiling. 
+[2018.01.24-13.44.39:172][898]LogMaterial: Missing cached shader map for material Beefy_Metal_Chainlink_MAT, compiling. 
+[2018.01.24-13.44.41:169][  8]LogMaterial: Missing cached shader map for material Bolted_Metal_Plates_MAT, compiling. 
+[2018.01.24-13.44.41:409][ 18]LogMaterial: Missing cached shader map for material Bolted_Concrete_Wall_MAT, compiling. 
+[2018.01.24-13.44.41:674][ 29]LogMaterial: Missing cached shader map for material Bolted_Concrete_Panels_MAT, compiling. 
+[2018.01.24-13.44.41:772][ 31]LogMaterial: Missing cached shader map for material Boardwalk_Planks_MAT, compiling. 
+[2018.01.24-13.44.42:093][ 44]LogMaterial: Missing cached shader map for material Boulder_Stone_Wall_MAT, compiling. 
+[2018.01.24-13.44.42:150][ 44]LogMaterial: Missing cached shader map for material Brass_Generic_MAT, compiling. 
+[2018.01.24-13.44.53:648][697]LogMaterial: Missing cached shader map for material Brass_MAT, compiling. 
+[2018.01.24-13.44.55:703][810]LogMaterial: Missing cached shader map for material Brick_with_X_Pattern_MAT, compiling. 
+[2018.01.24-13.44.55:758][810]LogMaterial: Missing cached shader map for material Bricks_001__Bitmap__MAT, compiling. 
+[2018.01.24-13.44.56:805][865]LogMaterial: Missing cached shader map for material Bricks_001_MAT, compiling. 
+[2018.01.24-13.44.57:400][895]LogMaterial: Missing cached shader map for material Bricks_008_MAT, compiling. 
+[2018.01.24-13.44.58:343][944]LogMaterial: Missing cached shader map for material Brick_Spanish_Fort_MAT, compiling. 
+[2018.01.24-13.44.58:406][944]LogMaterial: Missing cached shader map for material Brick_Paving_Stones_MAT, compiling. 
+[2018.01.24-13.45.10:038][609]LogMaterial: Missing cached shader map for material Brown_and_Grey_Cobblestone_Ground_MAT, compiling. 
+[2018.01.24-13.45.10:787][651]LogMaterial: Missing cached shader map for material Brushed_Aluminum_MAT, compiling. 
+[2018.01.24-13.45.12:225][731]LogMaterial: Missing cached shader map for material Brushed_Metal_MAT, compiling. 
+[2018.01.24-13.45.13:299][790]LogMaterial: Missing cached shader map for material Brushed_Copper_MAT, compiling. 
+[2018.01.24-13.45.24:736][451]LogMaterial: Missing cached shader map for material Brushed_Steel_002_MAT, compiling. 
+[2018.01.24-13.45.25:284][480]LogMaterial: Missing cached shader map for material Brushed_Steel_003_MAT, compiling. 
+[2018.01.24-13.45.27:745][610]LogMaterial: Missing cached shader map for material Cane_MAT, compiling. 
+[2018.01.24-13.45.29:053][683]LogMaterial: Missing cached shader map for material Brushed_Steel_001_MAT, compiling. 
+[2018.01.24-13.45.36:451][112]LogMaterial: Missing cached shader map for material Bumpy_Castle_Brick_MAT, compiling. 
+[2018.01.24-13.45.37:258][155]LogMaterial: Missing cached shader map for material Brushed_Steel_003_MAT, compiling. 
+[2018.01.24-13.45.37:364][155]LogMaterial: Missing cached shader map for material Brushed_Steel_003_MAT, compiling. 
+[2018.01.24-13.45.37:381][155]LogMaterial: Missing cached shader map for material Brushed_Steel_003_MAT, compiling. 
+[2018.01.24-13.45.37:426][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2018.01.24-13.45.37:433][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3, compiling. 
+[2018.01.24-13.45.37:439][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2018.01.24-13.45.37:446][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2018.01.24-13.45.37:453][155]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_4, compiling. 
+[2018.01.24-13.45.37:469][155]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.24-13.45.37:679][156]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.24-13.45.39:770][258]MaterialEditorStats: 信息 Base pass shader: 96 instructions
+[2018.01.24-13.45.39:770][258]MaterialEditorStats: 信息 Vertex shader: 31 instructions
+[2018.01.24-13.45.39:770][258]MaterialEditorStats: 信息 Texture samplers: 6/16
+[2018.01.24-13.45.39:770][258]MaterialEditorStats: 信息 User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.24-13.45.52:855][ 24]LogMaterial: Missing cached shader map for material Camouflage_001_MAT, compiling. 
+[2018.01.24-13.45.52:903][ 24]LogMaterial: Missing cached shader map for material Capital_Brick_MAT, compiling. 
+[2018.01.24-13.46.10:880][ 78]LogMaterial: Missing cached shader map for material Carpet_001_MAT, compiling. 
+[2018.01.24-13.46.11:556][117]LogMaterial: Missing cached shader map for material Cardboard_001_MAT, compiling. 
+[2018.01.24-13.46.16:219][378]LogMaterial: Missing cached shader map for material Ceramic_001_MAT, compiling. 
+[2018.01.24-13.46.16:351][383]LogMaterial: Missing cached shader map for material Ceramic_002_MAT, compiling. 
+[2018.01.24-13.46.17:040][421]LogMaterial: Missing cached shader map for material Ceramic_003_MAT, compiling. 
+[2018.01.24-13.46.17:129][422]LogMaterial: Missing cached shader map for material Chipped_Medieval_Brick_MAT, compiling. 
+[2018.01.24-13.46.17:249][425]LogMaterial: Missing cached shader map for material Clean_White_Brick_MAT, compiling. 
+[2018.01.24-13.46.18:405][484]LogMaterial: Missing cached shader map for material Concrete_045_MAT, compiling. 
+[2018.01.24-13.46.19:860][559]LogMaterial: Missing cached shader map for material Concrete_Bare_004_MAT, compiling. 
+[2018.01.24-13.46.20:490][592]LogMaterial: Missing cached shader map for material Concrete_Metal_Grid_MAT, compiling. 
+[2018.01.24-13.46.20:864][610]LogMaterial: Missing cached shader map for material Concrete_Pavement_002__Bitmap__MAT, compiling. 
+[2018.01.24-13.46.21:313][633]LogMaterial: Missing cached shader map for material Concrete_Pavement_001__Bitmap_001_MAT, compiling. 
+[2018.01.24-13.46.21:534][643]LogMaterial: Missing cached shader map for material Concrete_Pavement_001__Bitmap_002_MAT2, compiling. 
+[2018.01.24-13.46.26:484][917]LogMaterial: Missing cached shader map for material Concrete_Tiles_001__Bitmap_002_MAT2, compiling. 
+[2018.01.24-13.46.31:308][190]LogMaterial: Missing cached shader map for material Concrete_Tiles_MAT, compiling. 
+[2018.01.24-13.46.32:139][235]LogMaterial: Missing cached shader map for material Concrete_with_Tiny_Cracks_MAT, compiling. 
+[2018.01.24-13.46.32:300][242]LogMaterial: Missing cached shader map for material Copper_MAT, compiling. 
+[2018.01.24-13.46.35:065][399]LogMaterial: Missing cached shader map for material Corrugated_Metal_001_MAT, compiling. 
+[2018.01.24-13.46.36:314][465]LogMaterial: Missing cached shader map for material Cotton_MAT, compiling. 
+[2018.01.24-13.46.37:655][541]LogMaterial: Missing cached shader map for material Damaged_Plaster_001__Bitmap__MAT, compiling. 
+[2018.01.24-13.46.38:492][586]LogMaterial: Missing cached shader map for material Dead_Leaves_001_MAT, compiling. 
+[2018.01.24-13.46.38:958][609]LogMaterial: Missing cached shader map for material Desert_Sand_Pebbles_MAT, compiling. 
+[2018.01.24-13.47.04:456][ 99]LogMaterial: Missing cached shader map for material Dented_Copper_MAT_0, compiling. 
+[2018.01.24-13.47.04:472][ 99]LogSubstanceCore:Warning: Material Duplicated for - Dented_Copper_INST. Should now be added to asset list. Material Name - Dented_Copper_MAT_0
+[2018.01.24-13.47.36:693][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Metarial/02/Dented_Copper_INST" FILE="../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Dented_Copper_INST.uasset" SILENT=true
+[2018.01.24-13.47.36:697][  2]LogSavePackage: Save=1.77ms
+[2018.01.24-13.47.36:697][  2]LogSavePackage: Moving '../../../../../UE4_Project/TEST/BoringMachine/Saved/Dented_Copper_INSTD7ACC4B24FEB6BB22C85429AC1DA66E1.tmp' to '../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Dented_Copper_INST.uasset'
+[2018.01.24-13.47.36:700][  2]LogSavePackage:Display: Finished SavePackage ../../../../../UE4_Project/TEST/BoringMachine/Content/My/Metarial/02/Dented_Copper_INST.uasset
+[2018.01.24-13.48.13:233][969]LogCrashTracker: 
+
+
+[2018.01.24-13.48.13:233][969]LogCrashTracker: 
+
+
+[2018.01.24-13.48.13:233][969]LogWindows:Error: === Critical error: ===
+[2018.01.24-13.48.13:233][969]LogWindows:Error: 
+[2018.01.24-13.48.13:233][969]LogWindows:Error: Fatal error!
+[2018.01.24-13.48.13:233][969]LogWindows:Error: 
+[2018.01.24-13.48.13:233][969]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000038
+[2018.01.24-13.48.13:233][969]LogWindows:Error: 
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-SubstanceCore.dll!USubstanceTexture2D::PostDuplicate() [d:\build\++portal+main+full\sync\localbuilds\plugintemp\hostproject\plugins\substance\source\substancecore\private\substancetexture2d.cpp:496]
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-CoreUObject.dll!0x00000000324D3DA8
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-CoreUObject.dll!0x00000000324D2F26
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000027F80AA1
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000027F7EF78
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x0000000004F18012
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000050EB0FF
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000050E8EA4
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x00000000050EA73B
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x0000000004F2CCF2
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x0000000004EF015E
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-ContentBrowser.dll!0x0000000004F2CF2D
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C8978A8
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C89D588
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C803B42
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C804EC9
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C877775
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C928F57
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C955D7B
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C89F5FD
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C779E9C
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C749835
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C7EE5E2
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C7D720F
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Slate.dll!0x000000001C7C8391
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Core.dll!0x000000002924175B
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Core.dll!0x000000002922B7D1
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Core.dll!0x00000000292433DB
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Core.dll!0x0000000029227B22
+[2018.01.24-13.48.13:233][969]LogWindows:Error: USER32.dll!0x000000006E92B85D
+[2018.01.24-13.48.13:233][969]LogWindows:Error: USER32.dll!0x000000006E92B1EF
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor-Core.dll!0x0000000029243CE6
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor.exe!0x00000000649CDB44
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor.exe!0x00000000649BF0B0
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor.exe!0x00000000649BF12A
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor.exe!0x00000000649D0CF9
+[2018.01.24-13.48.13:233][969]LogWindows:Error: UE4Editor.exe!0x00000000649D25F7
+[2018.01.24-13.48.13:233][969]LogWindows:Error: KERNEL32.DLL!0x000000006E791FE4
+[2018.01.24-13.48.13:233][969]LogWindows:Error: ntdll.dll!0x00000000711FEFB1
+[2018.01.24-13.48.13:233][969]LogWindows:Error: ntdll.dll!0x00000000711FEFB1
+[2018.01.24-13.48.13:233][969]LogWindows:Error: 
+[2018.01.24-13.48.13:241][969]LogExit: Executing StaticShutdownAfterError
+[2018.01.24-13.48.13:243][969]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.01.24-13.48.13:243][969]Log file closed, 01/24/18 21:48:13
