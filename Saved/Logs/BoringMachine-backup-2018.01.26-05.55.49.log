@@ -1,0 +1,687 @@
+﻿Log file open, 01/25/18 17:47:20
+LogInit:Display: Running engine for game: BoringMachine
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(541032316) SRandInit(541032316).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080098
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.25-09.47.20:870][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-09.47.20:870][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.25-09.47.20:877][  0]LogInit: Computer: VR1-PC
+[2018.01.25-09.47.20:877][  0]LogInit: User: Vr1
+[2018.01.25-09.47.20:877][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.25-09.47.20:877][  0]LogInit: High frequency timer resolution =3.421923 MHz
+[2018.01.25-09.47.20:877][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.25-09.47.20:877][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.25-09.47.20:877][  0]LogMemory: Process Physical Memory: 272.62 MB used, 272.62 MB peak
+[2018.01.25-09.47.20:877][  0]LogMemory: Process Virtual Memory: 259.59 MB used, 259.59 MB peak
+[2018.01.25-09.47.20:878][  0]LogMemory: Physical Memory: 7152.25 MB used,  9180.84 MB free, 16333.09 MB total
+[2018.01.25-09.47.20:878][  0]LogMemory: Virtual Memory: 607.47 MB used,  9180.84 MB free, 8388608.00 MB total
+[2018.01.25-09.47.20:944][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.01.25-09.47.20:944][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.01.25-09.47.21:685][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.25-09.47.21:708][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.01.25-09.47.21:708][  0]LogD3D11RHI:       8084/0/7910 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.25-09.47.21:708][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.25-09.47.21:712][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.25-09.47.21:712][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.25-09.47.21:712][  0]LogWindows: EnumDisplayDevices:
+[2018.01.25-09.47.21:712][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.01.25-09.47.21:713][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.25-09.47.21:713][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.25-09.47.21:713][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.25-09.47.21:714][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.01.25-09.47.21:714][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.01.25-09.47.21:714][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.01.25-09.47.21:714][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.01.25-09.47.21:714][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.01.25-09.47.21:714][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2018.01.25-09.47.21:714][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2018.01.25-09.47.21:714][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.25-09.47.21:725][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.25-09.47.21:739][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.25-09.47.21:781][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Projects/UE4/BoringMachine/Intermediate/Shaders/WorkingDirectory/6340/).
+[2018.01.25-09.47.21:782][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vr1/AppData/Local/Temp/UnrealShaderWorkingDir/F3543B69474C2E252D5DCA8909C92992/'.
+[2018.01.25-09.47.21:782][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.25-09.47.22:672][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.25-09.47.22:717][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.25-09.47.22:760][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.25-09.47.22:804][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.25-09.47.22:847][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.25-09.47.22:890][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.25-09.47.22:933][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.25-09.47.22:975][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.25-09.47.23:013][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.25-09.47.23:054][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.25-09.47.23:096][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.25-09.47.23:140][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.25-09.47.23:181][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.25-09.47.23:224][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.25-09.47.23:266][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.25-09.47.23:349][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.25-09.47.23:349][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.25-09.47.23:382][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.25-09.47.23:461][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.25-09.47.23:484][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.25-09.47.23:526][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.25-09.47.23:569][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.25-09.47.23:611][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.25-09.47.23:653][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.25-09.47.23:653][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.25-09.47.24:032][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.25-09.47.24:113][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.25-09.47.24:113][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.25-09.47.24:113][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Projects/UE4/BoringMachine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.25-09.47.24:113][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.25-09.47.24:113][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Projects/UE4/BoringMachine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.25-09.47.24:113][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.25-09.47.24:128][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.25-09.47.24:140][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vr1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.25-09.47.24:148][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.25-09.47.24:148][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.25-09.47.24:149][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-09.47.24:149][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.25-09.47.24:462][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.25-09.47.24:465][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.25-09.47.24:671][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.25-09.47.24:709][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.25-09.47.24:749][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.25-09.47.24:749][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.25-09.47.24:749][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.25-09.47.25:181][  0]LogNetVersion: BoringMachine , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1412956445)
+[2018.01.25-09.47.25:233][  0]LogAssetRegistry: FAssetRegistry took 0.0237 seconds to start up
+[2018.01.25-09.47.25:265][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.014941 seconds
+[2018.01.25-09.47.25:270][  0]LogUObjectArray: 34136 objects as part of root set at end of initial load.
+[2018.01.25-09.47.25:270][  0]LogUObjectAllocator: 7249408 out of 0 bytes used by permanent object pool.
+[2018.01.25-09.47.25:270][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.25-09.47.25:315][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.25-09.47.27:326][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.01.25-09.47.27:347][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.25-09.47.27:378][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.25-09.47.27:829][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.25-09.47.28:182][  0]SourceControl: Info Source control is disabled
+[2018.01.25-09.47.28:183][  0]SourceControl: Info Source control is disabled
+[2018.01.25-09.47.28:222][  0]SourceControl: Info Source control is disabled
+[2018.01.25-09.47.28:260][  0]SourceControl: Info Source control is disabled
+[2018.01.25-09.47.28:804][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.25-09.47.29:169][  0]LogEngine: Initializing Engine...
+[2018.01.25-09.47.29:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.25-09.47.29:348][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.25-09.47.29:459][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.25-09.47.29:495][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.25-09.47.29:510][  0]LogInit: FAudioDevice initialized.
+[2018.01.25-09.47.29:545][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.25-09.47.29:549][  0]LogInit: Texture streaming: Enabled
+[2018.01.25-09.47.29:620][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.25-09.47.29:806][  0]LogInit: Transaction tracking system initialized
+[2018.01.25-09.47.30:071][  0]BlueprintLog: New page: Editor Load
+[2018.01.25-09.47.30:854][  0]LocalizationService: Info Localization service is disabled
+[2018.01.25-09.47.31:420][  0]LogConsoleResponse:Display: 
+[2018.01.25-09.47.31:551][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.25-09.47.31:551][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.25-09.47.31:944][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/' took 0.01s
+[2018.01.25-09.47.32:371][  0]SourceControl: Info Source control is disabled
+[2018.01.25-09.47.32:371][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.25-09.47.32:371][  0]LightingResults: New page: Lighting Build
+[2018.01.25-09.47.32:407][  0]MapCheck: New page: Map Check
+[2018.01.25-09.47.32:407][  0]LightingResults: New page: Lighting Build
+[2018.01.25-09.47.32:580][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.01.25-09.47.32:580][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.25-09.47.32:583][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.25-09.47.32:596][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.25-09.47.32:623][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.538ms to complete.
+[2018.01.25-09.47.32:623][  0]LogFileHelpers: Loading map 'Template_Default' took 0.252
+[2018.01.25-09.47.32:728][  0]LogCollectionManager: Loaded 0 collections in 0.001037 seconds
+[2018.01.25-09.47.32:800][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Saved/Collections/' took 0.01s
+[2018.01.25-09.47.32:800][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/Developers/Vr1/Collections/' took 0.01s
+[2018.01.25-09.47.32:800][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/Collections/' took 0.01s
+[2018.01.25-09.47.32:800][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.25-09.47.32:808][  0]LogContentBrowser: Native class hierarchy populated in 0.0076 seconds. Added 2338 classes and 487 folders.
+[2018.01.25-09.47.32:862][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.25-09.47.32:889][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.25-09.47.32:925][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.25-09.47.32:954][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.25-09.47.32:958][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.25-09.47.32:960][  0]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.25-09.47.32:965][  0]LogSlate: Took 0.000198 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.25-09.47.33:057][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.01.25-09.47.33:190][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.25-09.47.33:247][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.25-09.47.33:248][  0]LogLoad: (Engine Initialization) Total time: 13.53 seconds
+[2018.01.25-09.47.33:248][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2018.01.25-09.47.33:248][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.25-09.47.33:248][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.25-09.47.33:258][  0]LogHMD: Starting GearVRController plugin
+[2018.01.25-09.47.33:277][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.25-09.47.33:322][  0]LogSlate: Took 0.000120 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-09.47.33:345][  1]LogAssetRegistry: Asset discovery search completed in 8.1325 seconds
+[2018.01.25-09.47.33:347][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.25-09.47.33:347][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2018.01.25-09.47.34:274][108]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-09.47.36:319][331]LogSlate: Took 0.000090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.25-09.47.36:379][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.25-09.47.36:379][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST.uasset.
+[2018.01.25-09.47.36:379][331]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_INST : Can't find file for asset. /Game/Substance_Material/Textures/Other/metal_aluminium_directional
+[2018.01.25-09.47.36:379][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.25-09.47.36:379][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST.uasset.
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:384][331]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:384][331]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:384][331]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_metallic
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.25-09.47.36:384][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:385][331]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_normal
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:385][331]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_roughness
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.25-09.47.36:385][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.25-09.47.36:387][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:388][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_basecolor.uasset.
+[2018.01.25-09.47.36:388][331]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_basecolor : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.25-09.47.36:388][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:388][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_basecolor.uasset.
+[2018.01.25-09.47.36:389][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:389][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_metallic.uasset.
+[2018.01.25-09.47.36:389][331]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_metallic : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.25-09.47.36:389][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:389][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_metallic.uasset.
+[2018.01.25-09.47.36:390][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:390][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_normal.uasset.
+[2018.01.25-09.47.36:390][331]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_normal : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.25-09.47.36:390][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:390][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_normal.uasset.
+[2018.01.25-09.47.36:391][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:391][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_roughness.uasset.
+[2018.01.25-09.47.36:391][331]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_roughness : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.25-09.47.36:392][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:392][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_roughness.uasset.
+[2018.01.25-09.47.36:392][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:392][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_MAT.uasset.
+[2018.01.25-09.47.36:392][331]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.25-09.47.36:392][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:392][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_MAT.uasset.
+[2018.01.25-09.47.36:403][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.25-09.47.36:403][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset.
+[2018.01.25-09.47.36:403][331]LoadErrors:Error: Error /Game/My/Metarial/02/Trashed_Steel_INST : Can't find file for asset. /Game/Substance_Material/Textures/Other/metal_trashed_steel
+[2018.01.25-09.47.36:403][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.25-09.47.36:403][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset.
+[2018.01.25-09.47.36:445][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:445][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/12_-_Default.uasset.
+[2018.01.25-09.47.36:446][331]LoadErrors:Error: Error /Game/My/Wajueji_0123/12_-_Default : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.25-09.47.36:446][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:446][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/12_-_Default.uasset.
+[2018.01.25-09.47.36:452][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:452][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/Material__670.uasset.
+[2018.01.25-09.47.36:453][331]LoadErrors:Error: Error /Game/My/Wajueji_0123/Material__670 : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.25-09.47.36:453][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:453][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/Material__670.uasset.
+[2018.01.25-09.47.36:605][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.25-09.47.36:605][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/metal_trashed_steel.metal_trashed_steel Referenced by Trashed_Steel_INST
+[2018.01.25-09.47.36:605][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading NULL.
+[2018.01.25-09.47.36:605][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.25-09.47.36:605][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading NULL.
+[2018.01.25-09.47.36:608][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:608][331]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_roughness
+[2018.01.25-09.47.36:608][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:608][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:608][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:609][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:609][331]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_normal
+[2018.01.25-09.47.36:609][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:609][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:609][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:609][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:610][331]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_metallic
+[2018.01.25-09.47.36:610][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:610][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:610][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:610][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:610][331]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_basecolor
+[2018.01.25-09.47.36:610][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:611][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.25-09.47.36:611][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.25-09.47.36:611][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:611][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion.Brushed_Copper_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2018.01.25-09.47.36:611][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.25-09.47.36:611][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.25-09.47.36:611][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor.Aluminum_INST_basecolor Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2018.01.25-09.47.36:611][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading NULL.
+[2018.01.25-09.47.36:611][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.25-09.47.36:611][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_normal.Aluminum_INST_normal Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2018.01.25-09.47.36:612][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading NULL.
+[2018.01.25-09.47.36:612][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.25-09.47.36:612][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_roughness.Aluminum_INST_roughness Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2018.01.25-09.47.36:612][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading NULL.
+[2018.01.25-09.47.36:612][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.25-09.47.36:612][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_metallic.Aluminum_INST_metallic Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2018.01.25-09.47.36:612][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading NULL.
+[2018.01.25-09.47.36:612][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.25-09.47.36:612][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion.Aluminum_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2018.01.25-09.47.36:612][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading NULL.
+[2018.01.25-09.47.36:616][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.25-09.47.36:616][331]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/metal_aluminium_directional.metal_aluminium_directional Referenced by Aluminum_INST
+[2018.01.25-09.47.36:616][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading NULL.
+[2018.01.25-09.47.36:616][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.25-09.47.36:617][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading NULL.
+[2018.01.25-09.47.36:673][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:673][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.25-09.47.36:675][331]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.25-09.47.36:675][331]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.25-09.47.36:846][331]LogMaterial: Missing cached shader map for material Brushed_Copper_MAT, compiling. 
+[2018.01.25-09.47.36:847][331]LogMaterial:Warning: Failed to compile Material /Game/My/Metarial/02/Brushed_Copper_MAT.Brushed_Copper_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.25-09.47.36:847][331]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.25-09.47.36:849][331]LogMaterial: Missing cached shader map for material Aluminum_MAT, compiling. 
+[2018.01.25-09.47.36:849][331]LogMaterial:Warning: Failed to compile Material /Game/My/Metarial/02/Aluminum_MAT.Aluminum_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.25-09.47.36:849][331]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.25-09.47.37:184][331]LogMaterial: Missing cached shader map for material 12_-_Default, compiling. 
+[2018.01.25-09.47.37:184][331]LogMaterial:Warning: Failed to compile Material /Game/My/Wajueji_0123/12_-_Default.12_-_Default for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.25-09.47.37:184][331]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.25-09.47.37:191][331]LogAIModule: Creating AISystem for world 07
+[2018.01.25-09.47.37:196][331]LogMaterial:Warning: Material /Game/My/Metarial/coal_05.coal_05 needed to have new flag set bUsedWithSkeletalMesh !
+[2018.01.25-09.47.37:198][331]LogMaterial: Missing cached shader map for material coal_05, compiling. 
+[2018.01.25-09.47.37:260][331]MapCheck:Warning: Warning coal_05 Material /Game/My/Metarial/coal_05.coal_05 was missing the usage flag bUsedWithSkeletalMesh. If the material asset is not re-saved, it may not render correctly when run outside the editor. Fix
+[2018.01.25-09.47.37:298][331]Cmd: MAP LOAD FILE="E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.25-09.47.37:298][331]LightingResults: New page: Lighting Build
+[2018.01.25-09.47.37:299][331]LoadErrors: New page: Loading map: 07.umap
+[2018.01.25-09.47.37:299][331]MapCheck: New page: Map Check
+[2018.01.25-09.47.37:299][331]LightingResults: New page: Lighting Build
+[2018.01.25-09.47.37:328][331]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.25-09.47.37:359][331]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.25-09.47.37:402][331]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.127ms to complete.
+[2018.01.25-09.47.37:402][331]LogFileHelpers: Loading map '07' took 0.106
+[2018.01.25-09.47.49:058][353]LogEditorViewport: Clicking on Actor (LMB): BP_Wajueji_C (BP_Wajueji)
+[2018.01.25-09.47.49:109][353]LogSlate: Took 0.003961 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.25-09.47.50:702][490]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.01.25-09.47.51:224][490]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.25-09.47.52:934][630]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.25-09.48.29:773][134]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.25-09.48.33:442][445]LogTemp: Dropped drillRotateDamp on Category 摇臂相关参数
+[2018.01.25-09.48.56:926][521]BlueprintLog: New page: Compile BP_Wajueji
+[2018.01.25-09.48.57:894][568]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.48.58:036][568]LogSavePackage: Save=134.29ms
+[2018.01.25-09.48.58:036][568]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_WajuejiFE0A10E04842C5EEAA6E089F14419604.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.48.58:039][568]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.49.17:509][ 73]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.49.17:643][ 73]LogSavePackage: Save=126.49ms
+[2018.01.25-09.49.17:643][ 73]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji73DE629D437DA297935973B4BBA4AE4B.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.49.17:645][ 73]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.49.36:701][566]LogTemp: Dropped curMoveSpeed on Category 掘进机移动相关参数
+[2018.01.25-09.49.37:985][652]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.49.38:124][652]LogSavePackage: Save=131.49ms
+[2018.01.25-09.49.38:124][652]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji3EDAD9244317B8C3333262AC939B5040.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.49.38:127][652]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.51.10:459][877]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.51.10:593][877]LogSavePackage: Save=125.47ms
+[2018.01.25-09.51.10:593][877]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji3E7605494B681F93FA72A18EC146BB24.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.51.10:595][877]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.51.24:141][954]BlueprintLog: New page: Compile BP_Wajueji
+[2018.01.25-09.51.24:553][970]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.51.24:694][970]LogSavePackage: Save=133.94ms
+[2018.01.25-09.51.24:694][970]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji91858C1A4F701FA3790C66BC83619F19.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.51.24:696][970]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.51.25:142][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.51.25:275][  1]LogSavePackage: Save=125.36ms
+[2018.01.25-09.51.25:275][  1]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji8437F69D47854EE4A4FE0A85261DC69E.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.51.25:277][  1]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.54.14:643][499]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.54.14:775][499]LogSavePackage: Save=124.71ms
+[2018.01.25-09.54.14:775][499]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_WajuejiC127A1B745CE7BB76A45009BF1F05569.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.54.14:776][499]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.54.19:393][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.54.19:526][853]LogSavePackage: Save=125.63ms
+[2018.01.25-09.54.19:526][853]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_WajuejiB08FFCE948EBF67804B62F8FDD4F7867.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.54.19:528][853]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.54.27:410][439]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.54.27:542][439]LogSavePackage: Save=125.34ms
+[2018.01.25-09.54.27:542][439]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji5C15B6C44965435475EBFFB8ECEEE4C9.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.54.27:544][439]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.54.33:110][839]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.25-09.54.33:242][839]LogSavePackage: Save=124.88ms
+[2018.01.25-09.54.33:242][839]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_WajuejiB437CE7D4EFC847315C496B452304BFD.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.25-09.54.33:244][839]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.25-09.54.37:143][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.25-09.54.37:650][ 97]LogSavePackage: Save=484.91ms
+[2018.01.25-09.54.37:650][ 97]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/07187D7C6C42C4738964ACDCA626444E35.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.25-09.54.37:653][ 97]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap
+[2018.01.25-09.54.38:681][192]Cmd: QUIT_EDITOR
+[2018.01.25-09.54.38:703][192]LogExit: Preparing to exit.
+[2018.01.25-09.54.39:531][192]LogExit: Editor shut down
+[2018.01.25-09.54.39:533][192]LogExit: Transaction tracking system shut down
+[2018.01.25-09.54.39:625][192]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.25-09.54.39:625][192]LogExit: Object subsystem successfully closed.
+[2018.01.25-09.54.39:638][192]LogD3D11RHI: Shutdown
+[2018.01.25-09.54.39:638][192]LogD3D11RHI: CleanupD3DDevice
+[2018.01.25-09.54.39:712][192]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.25-09.54.39:722][192]LogModuleManager: Shutting down and abandoning module BlueprintGraph (522)
+[2018.01.25-09.54.39:722][192]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (520)
+[2018.01.25-09.54.39:722][192]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (518)
+[2018.01.25-09.54.39:722][192]LogModuleManager: Shutting down and abandoning module CrashTracker (516)
+[2018.01.25-09.54.39:722][192]LogModuleManager: Shutting down and abandoning module SceneOutliner (514)
+[2018.01.25-09.54.39:722][192]LogModuleManager: Shutting down and abandoning module AddContentDialog (512)
+[2018.01.25-09.54.39:722][192]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module WidgetCarousel (511)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module EditorWidgets (508)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module CollectionManager (506)
+[2018.01.25-09.54.39:723][192]LogDirectoryWatcher: A directory notification for 'E:/Projects/UE4/BoringMachine/Content/Collections/' was aborted.
+[2018.01.25-09.54.39:723][192]LogDirectoryWatcher: A directory notification for 'E:/Projects/UE4/BoringMachine/Content/Developers/Vr1/Collections/' was aborted.
+[2018.01.25-09.54.39:723][192]LogDirectoryWatcher: A directory notification for 'E:/Projects/UE4/BoringMachine/Saved/Collections/' was aborted.
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module StatsViewer (504)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module FoliageEdit (502)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module LandscapeEditor (500)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module MeshPaintMode (498)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (496)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module ActorPickerMode (494)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module GeometryMode (492)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module TextureAlignMode (490)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module BspMode (488)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module HardwareSurvey (486)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (484)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module AutomationWorker (482)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (480)
+[2018.01.25-09.54.39:723][192]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (478)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module PlacementMode (477)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (474)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (472)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (470)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (468)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (466)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module Media (465)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (462)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module CharacterAI (460)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module AudioCapture (458)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module SequenceRecorder (457)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module SmartSnapping (454)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module SessionServices (452)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module ViewportSnapping (450)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module ViewportInteraction (448)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module ClothPainter (446)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module LogVisualizer (444)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module IntroTutorials (442)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (441)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (438)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (436)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (434)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (432)
+[2018.01.25-09.54.39:724][192]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (431)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (428)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (426)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module InputBindingEditor (424)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module MergeActors (422)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module SizeMap (420)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module TreeMap (418)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module ReferenceViewer (416)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (414)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module LocalizationService (413)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module HardwareTargeting (410)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (408)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module UndoHistory (406)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module UserFeedback (404)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module XmlParser (402)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module Blutility (400)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (398)
+[2018.01.25-09.54.40:125][192]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (397)
+[2018.01.25-09.54.40:126][192]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (394)
+[2018.01.25-09.54.40:126][192]LogModuleManager: Shutting down and abandoning module SettingsEditor (392)
+[2018.01.25-09.54.40:126][192]LogModuleManager: Shutting down and abandoning module ProjectLauncher (390)
+[2018.01.25-09.54.40:126][192]LogModuleManager: Shutting down and abandoning module SessionFrontend (388)
+[2018.01.25-09.54.40:126][192]LogModuleManager: Shutting down and abandoning module ProfilerClient (386)
+[2018.01.25-09.54.40:126][192]LogModuleManager: Shutting down and abandoning module DeviceManager (384)
+[2018.01.25-09.54.40:126][192]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (383)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module AutomationController (380)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module AutomationWindow (378)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module Layers (376)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (374)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module DetailCustomizations (372)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module PackagesDialog (370)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module Persona (368)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (367)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module AnimGraph (365)
+[2018.01.25-09.54.40:186][192]LogModuleManager: Shutting down and abandoning module Kismet (362)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module ClassViewer (360)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module Toolbox (358)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module ModuleUI (356)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module MovieSceneTools (354)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module OutputLog (352)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module GammaUI (350)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module Documentation (348)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (346)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module MovieScene (344)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module Niagara (342)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module NiagaraEditor (341)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (338)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module AnalyticsET (336)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module PortalServices (334)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module PortalRpc (332)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module MessagingRpc (330)
+[2018.01.25-09.54.40:191][192]LogModuleManager: Shutting down and abandoning module AIModule (328)
+[2018.01.25-09.54.40:192][192]LogModuleManager: Shutting down and abandoning module GameplayDebugger (327)
+[2018.01.25-09.54.40:192][192]LogModuleManager: Shutting down and abandoning module AITestSuite (325)
+[2018.01.25-09.54.40:192][192]LogModuleManager: Shutting down and abandoning module ProfilerService (322)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module TaskGraph (320)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module SubstanceEditor (318)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (316)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (314)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.25-09.54.40:389][192]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.25-09.54.40:390][192]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.25-09.54.40:390][192]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.25-09.54.40:390][192]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.25-09.54.40:391][192]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.25-09.54.40:391][192]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.25-09.54.40:391][192]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.25-09.54.40:391][192]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.25-09.54.40:391][192]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.25-09.54.40:391][192]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.25-09.54.40:491][192]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module SubstanceCore (232)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (230)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (228)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module FacialAnimation (226)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (224)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module GraphEditor (223)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module ContentBrowser (221)
+[2018.01.25-09.54.40:591][192]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (218)
+[2018.01.25-09.54.40:592][192]LogModuleManager: Shutting down and abandoning module Paper2D (216)
+[2018.01.25-09.54.40:592][192]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (214)
+[2018.01.25-09.54.40:592][192]LogModuleManager: Shutting down and abandoning module WmfMedia (212)
+[2018.01.25-09.54.40:592][192]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (210)
+[2018.01.25-09.54.40:592][192]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (208)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module MediaAssets (206)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (204)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module VREditor (202)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module StringTableEditor (200)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (198)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (196)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module FunctionalTesting (194)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (192)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module UMG (190)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module UMGEditor (189)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module Sequencer (188)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module AssetTools (186)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module MessageLog (185)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (184)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module SlateReflector (178)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module Slate (176)
+[2018.01.25-09.54.40:593][192]LogModuleManager: Shutting down and abandoning module EditorStyle (174)
+[2018.01.25-09.54.40:595][192]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (172)
+[2018.01.25-09.54.40:595][192]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (170)
+[2018.01.25-09.54.40:595][192]LogModuleManager: Shutting down and abandoning module XAudio2 (168)
+[2018.01.25-09.54.40:595][192]LogModuleManager: Shutting down and abandoning module Networking (166)
+[2018.01.25-09.54.40:595][192]LogModuleManager: Shutting down and abandoning module Core (162)
+[2018.01.25-09.54.40:595][192]LogModuleManager: Shutting down and abandoning module AssetRegistry (160)
+[2018.01.25-09.54.40:748][192]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.25-09.54.40:748][192]LogDirectoryWatcher: A directory notification for 'E:/Projects/UE4/BoringMachine/Content/' was aborted.
+[2018.01.25-09.54.40:748][192]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.25-09.54.40:748][192]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module KismetCompiler (156)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module LevelSequence (144)
+[2018.01.25-09.54.40:750][192]LogModuleManager: Shutting down and abandoning module DerivedDataCache (142)
+[2018.01.25-09.54.40:763][192]LogDerivedDataCache: Shutdown
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TargetPlatform (140)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (139)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (137)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (135)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (133)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (131)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (129)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (127)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (125)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (123)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (121)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module ImageWrapper (120)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (117)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (115)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (113)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (111)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (109)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (107)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (105)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (103)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (101)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Messaging (99)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (97)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (95)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (93)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (91)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (89)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (87)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (85)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (83)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (81)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (79)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (77)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (75)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (73)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (71)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (69)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (67)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (65)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (63)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (61)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module InputCore (58)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module Settings (56)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.25-09.54.40:763][192]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.25-09.54.40:763][192]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.25-09.54.40:764][192]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.25-09.54.40:764][192]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.25-09.54.40:764][192]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8CE36056-476F-7976-ACD8-0092D52A3F9A%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=871bc2ea4251745466dd20a3a7c75c13%7C17b9900037344c10b9b9506380a9cbb5%7C5bfdc309-bfdd-4641-a80f-cdc1840afaf6&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.25-09.54.40:764][192]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.25-09.54.41:264][192]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.01.25-09.54.41:768][192]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.25-09.54.41:769][192]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.25-09.54.41:771][192]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.25-09.54.41:772][192]LogExit: Exiting.
+[2018.01.25-09.54.41:782][192]Log file closed, 01/25/18 17:54:41
