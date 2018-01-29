@@ -1,0 +1,447 @@
+﻿Log file open, 01/29/18 16:06:31
+LogInit:Display: Running engine for game: BoringMachine
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2086017975) SRandInit(-2086017975).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081362
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.29-08.06.32:104][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-08.06.32:104][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.29-08.06.32:111][  0]LogInit: Computer: VR1-PC
+[2018.01.29-08.06.32:111][  0]LogInit: User: Vr1
+[2018.01.29-08.06.32:111][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.29-08.06.32:111][  0]LogInit: High frequency timer resolution =3.421933 MHz
+[2018.01.29-08.06.32:111][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.29-08.06.32:111][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-08.06.32:111][  0]LogMemory: Process Physical Memory: 272.68 MB used, 272.68 MB peak
+[2018.01.29-08.06.32:111][  0]LogMemory: Process Virtual Memory: 259.66 MB used, 259.66 MB peak
+[2018.01.29-08.06.32:111][  0]LogMemory: Physical Memory: 3418.16 MB used,  12914.93 MB free, 16333.09 MB total
+[2018.01.29-08.06.32:111][  0]LogMemory: Virtual Memory: 607.47 MB used,  12914.93 MB free, 8388608.00 MB total
+[2018.01.29-08.06.32:180][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.01.29-08.06.32:180][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.01.29-08.06.32:921][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.29-08.06.32:941][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.01.29-08.06.32:941][  0]LogD3D11RHI:       8084/0/7910 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.29-08.06.32:941][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.29-08.06.32:944][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.29-08.06.32:944][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.29-08.06.32:944][  0]LogWindows: EnumDisplayDevices:
+[2018.01.29-08.06.32:945][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.01.29-08.06.32:945][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.29-08.06.32:945][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.29-08.06.32:946][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.29-08.06.32:946][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.01.29-08.06.32:946][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.01.29-08.06.32:946][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.01.29-08.06.32:947][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.01.29-08.06.32:947][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.01.29-08.06.32:947][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2018.01.29-08.06.32:947][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2018.01.29-08.06.32:947][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.29-08.06.32:956][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.29-08.06.32:970][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.29-08.06.33:012][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Projects/UE4/BoringMachine/Intermediate/Shaders/WorkingDirectory/6696/).
+[2018.01.29-08.06.33:012][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vr1/AppData/Local/Temp/UnrealShaderWorkingDir/C70E2C89446A1E9FCE9837AB2A78B1ED/'.
+[2018.01.29-08.06.33:012][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.29-08.06.33:864][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.29-08.06.33:906][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.29-08.06.33:949][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.29-08.06.33:991][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.29-08.06.34:034][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.29-08.06.34:084][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.29-08.06.34:127][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.29-08.06.34:169][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.29-08.06.34:207][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.29-08.06.34:249][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.29-08.06.34:292][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.29-08.06.34:335][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.29-08.06.34:378][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.29-08.06.34:421][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.29-08.06.34:463][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.29-08.06.34:550][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.29-08.06.34:550][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.29-08.06.34:582][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.29-08.06.34:660][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.29-08.06.34:681][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.29-08.06.34:723][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.29-08.06.34:764][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.29-08.06.34:805][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.29-08.06.34:848][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.29-08.06.34:848][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.29-08.06.35:219][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.29-08.06.35:305][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.29-08.06.35:305][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.29-08.06.35:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Projects/UE4/BoringMachine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.29-08.06.35:305][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.29-08.06.35:305][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Projects/UE4/BoringMachine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.29-08.06.35:305][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.29-08.06.35:320][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.29-08.06.35:332][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vr1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.29-08.06.35:342][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.29-08.06.35:342][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.29-08.06.35:343][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-08.06.35:343][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-08.06.35:672][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-08.06.35:677][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.29-08.06.35:886][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.29-08.06.35:924][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.29-08.06.35:962][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.29-08.06.35:962][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.29-08.06.35:962][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.29-08.06.36:423][  0]LogNetVersion: BoringMachine , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1412956445)
+[2018.01.29-08.06.36:474][  0]LogAssetRegistry: FAssetRegistry took 0.0239 seconds to start up
+[2018.01.29-08.06.36:507][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.014638 seconds
+[2018.01.29-08.06.36:512][  0]LogUObjectArray: 34136 objects as part of root set at end of initial load.
+[2018.01.29-08.06.36:512][  0]LogUObjectAllocator: 7249408 out of 0 bytes used by permanent object pool.
+[2018.01.29-08.06.36:512][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.29-08.06.36:556][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.29-08.06.38:631][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.01.29-08.06.38:653][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.29-08.06.38:682][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.29-08.06.39:124][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.29-08.06.39:475][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.06.39:476][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.06.39:514][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.06.39:551][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.06.40:084][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.29-08.06.40:446][  0]LogEngine: Initializing Engine...
+[2018.01.29-08.06.40:640][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.29-08.06.40:640][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.29-08.06.40:750][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.29-08.06.40:788][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.29-08.06.40:807][  0]LogInit: FAudioDevice initialized.
+[2018.01.29-08.06.40:844][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.29-08.06.40:848][  0]LogInit: Texture streaming: Enabled
+[2018.01.29-08.06.40:916][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.29-08.06.41:094][  0]LogInit: Transaction tracking system initialized
+[2018.01.29-08.06.41:354][  0]BlueprintLog: New page: Editor Load
+[2018.01.29-08.06.42:118][  0]LocalizationService: Info Localization service is disabled
+[2018.01.29-08.06.42:680][  0]LogConsoleResponse:Display: 
+[2018.01.29-08.06.42:814][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.29-08.06.42:814][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.29-08.06.42:982][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/' took 0.01s
+[2018.01.29-08.06.43:627][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.06.43:627][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-08.06.43:627][  0]LightingResults: New page: Lighting Build
+[2018.01.29-08.06.43:663][  0]MapCheck: New page: Map Check
+[2018.01.29-08.06.43:663][  0]LightingResults: New page: Lighting Build
+[2018.01.29-08.06.43:838][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.01.29-08.06.43:839][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.29-08.06.43:842][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-08.06.43:857][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-08.06.43:884][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.196ms to complete.
+[2018.01.29-08.06.43:884][  0]LogFileHelpers: Loading map 'Template_Default' took 0.257
+[2018.01.29-08.06.43:999][  0]LogCollectionManager: Loaded 0 collections in 0.001490 seconds
+[2018.01.29-08.06.44:070][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Saved/Collections/' took 0.01s
+[2018.01.29-08.06.44:070][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/Developers/Vr1/Collections/' took 0.01s
+[2018.01.29-08.06.44:070][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/Collections/' took 0.01s
+[2018.01.29-08.06.44:070][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.29-08.06.44:078][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2338 classes and 487 folders.
+[2018.01.29-08.06.44:130][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.29-08.06.44:157][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.01.29-08.06.44:192][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.29-08.06.44:222][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.29-08.06.44:226][  0]LogSlate: Took 0.000099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.29-08.06.44:228][  0]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.29-08.06.44:233][  0]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.29-08.06.44:328][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.01.29-08.06.44:449][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.29-08.06.44:505][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.29-08.06.44:506][  0]LogLoad: (Engine Initialization) Total time: 13.54 seconds
+[2018.01.29-08.06.44:506][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2018.01.29-08.06.44:506][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.29-08.06.44:506][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.29-08.06.44:516][  0]LogHMD: Starting GearVRController plugin
+[2018.01.29-08.06.44:535][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.29-08.06.44:581][  0]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-08.06.44:605][  1]LogAssetRegistry: Asset discovery search completed in 8.1513 seconds
+[2018.01.29-08.06.44:607][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.29-08.06.44:607][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2018.01.29-08.06.46:399][208]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-08.06.46:488][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.06.46:488][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST.uasset.
+[2018.01.29-08.06.46:488][208]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_INST : Can't find file for asset. /Game/Substance_Material/Textures/Other/metal_aluminium_directional
+[2018.01.29-08.06.46:488][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.06.46:488][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST.uasset.
+[2018.01.29-08.06.46:491][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:492][208]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:492][208]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:492][208]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_metallic
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:492][208]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_normal
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:492][208]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_roughness
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:492][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.29-08.06.46:493][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:493][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.29-08.06.46:493][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:493][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.29-08.06.46:493][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.06.46:494][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:494][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_basecolor.uasset.
+[2018.01.29-08.06.46:494][208]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_basecolor : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.06.46:495][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:495][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_basecolor.uasset.
+[2018.01.29-08.06.46:495][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:495][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_metallic.uasset.
+[2018.01.29-08.06.46:495][208]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_metallic : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.06.46:496][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:496][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_metallic.uasset.
+[2018.01.29-08.06.46:496][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:496][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_normal.uasset.
+[2018.01.29-08.06.46:497][208]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_normal : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.06.46:497][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:497][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_normal.uasset.
+[2018.01.29-08.06.46:497][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:497][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_roughness.uasset.
+[2018.01.29-08.06.46:498][208]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_roughness : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.06.46:498][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:498][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_roughness.uasset.
+[2018.01.29-08.06.46:498][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:498][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_MAT.uasset.
+[2018.01.29-08.06.46:498][208]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.29-08.06.46:498][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:498][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_MAT.uasset.
+[2018.01.29-08.06.46:508][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.06.46:508][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset.
+[2018.01.29-08.06.46:508][208]LoadErrors:Error: Error /Game/My/Metarial/02/Trashed_Steel_INST : Can't find file for asset. /Game/Substance_Material/Textures/Other/metal_trashed_steel
+[2018.01.29-08.06.46:508][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.06.46:508][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset.
+[2018.01.29-08.06.46:554][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:555][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/12_-_Default.uasset.
+[2018.01.29-08.06.46:555][208]LoadErrors:Error: Error /Game/My/Wajueji_0123/12_-_Default : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.29-08.06.46:555][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:555][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/12_-_Default.uasset.
+[2018.01.29-08.06.46:561][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:561][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/Material__670.uasset.
+[2018.01.29-08.06.46:561][208]LoadErrors:Error: Error /Game/My/Wajueji_0123/Material__670 : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.29-08.06.46:561][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:561][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/Material__670.uasset.
+[2018.01.29-08.06.46:761][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:761][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion.Brushed_Copper_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2018.01.29-08.06.46:761][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.06.46:764][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:764][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.06.46:791][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.06.46:791][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/metal_trashed_steel.metal_trashed_steel Referenced by Trashed_Steel_INST
+[2018.01.29-08.06.46:791][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading NULL.
+[2018.01.29-08.06.46:791][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.06.46:791][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading NULL.
+[2018.01.29-08.06.46:793][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:794][208]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_roughness
+[2018.01.29-08.06.46:794][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:794][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:794][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:794][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:794][208]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_normal
+[2018.01.29-08.06.46:794][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:795][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:795][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:795][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:795][208]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_metallic
+[2018.01.29-08.06.46:795][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:795][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:795][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.29-08.06.46:796][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor.Aluminum_INST_basecolor Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading NULL.
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.29-08.06.46:796][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_normal.Aluminum_INST_normal Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading NULL.
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.29-08.06.46:796][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_roughness.Aluminum_INST_roughness Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading NULL.
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.29-08.06.46:796][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_metallic.Aluminum_INST_metallic Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading NULL.
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.29-08.06.46:796][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion.Aluminum_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2018.01.29-08.06.46:796][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.06.46:801][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.06.46:801][208]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/metal_aluminium_directional.metal_aluminium_directional Referenced by Aluminum_INST
+[2018.01.29-08.06.46:801][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading NULL.
+[2018.01.29-08.06.46:801][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.06.46:801][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading NULL.
+[2018.01.29-08.06.46:803][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:803][208]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_basecolor
+[2018.01.29-08.06.46:803][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:803][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.06.46:803][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.06.46:803][208]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.06.46:803][208]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.06.47:228][208]LogMaterial: Missing cached shader map for material 12_-_Default, compiling. 
+[2018.01.29-08.06.47:228][208]LogMaterial:Warning: Failed to compile Material /Game/My/Wajueji_0123/12_-_Default.12_-_Default for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-08.06.47:228][208]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.29-08.06.47:281][208]LogMaterial: Missing cached shader map for material Aluminum_MAT, compiling. 
+[2018.01.29-08.06.47:282][208]LogMaterial:Warning: Failed to compile Material /Game/My/Metarial/02/Aluminum_MAT.Aluminum_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-08.06.47:282][208]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.29-08.06.47:330][208]LogMaterial: Missing cached shader map for material Brushed_Copper_MAT, compiling. 
+[2018.01.29-08.06.47:330][208]LogMaterial:Warning: Failed to compile Material /Game/My/Metarial/02/Brushed_Copper_MAT.Brushed_Copper_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-08.06.47:330][208]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.29-08.06.47:370][208]LogAIModule: Creating AISystem for world 07
+[2018.01.29-08.06.47:401][208]Cmd: MAP LOAD FILE="E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-08.06.47:401][208]LightingResults: New page: Lighting Build
+[2018.01.29-08.06.47:402][208]LoadErrors: New page: Loading map: 07.umap
+[2018.01.29-08.06.47:402][208]MapCheck: New page: Map Check
+[2018.01.29-08.06.47:402][208]LightingResults: New page: Lighting Build
+[2018.01.29-08.06.47:427][208]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-08.06.47:457][208]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-08.06.47:498][208]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.577ms to complete.
+[2018.01.29-08.06.47:498][208]LogFileHelpers: Loading map '07' took 0.097
+[2018.01.29-08.06.51:519][631]LogEditorViewport: Clicking on Actor (LMB): BP_BoringMachineCamera_C (BP_BoringMachineCamera)
+[2018.01.29-08.06.53:780][770]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2018.01.29-08.06.54:297][770]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.29-08.06.54:350][771]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.29-08.07.06:908][679]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1).
+[2018.01.29-08.07.36:547][685]LogEditorViewport: Clicking on Actor (LMB): BP_Wajueji_C (BP_Wajueji)
+[2018.01.29-08.07.36:656][685]LogSlate: Took 0.002033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.29-08.08.26:231][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.08.26:277][413]LogSavePackage: Save=38.15ms
+[2018.01.29-08.08.26:277][413]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter9A3B48914E7DF08D50FB59AA414957E2.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.08.26:280][413]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.08.26:380][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.08.26:424][424]LogSavePackage: Save=36.96ms
+[2018.01.29-08.08.26:424][424]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter9AD61A5B42B49DF2F2FC4986CA38F9F6.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.08.26:425][424]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.08.26:547][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.08.26:592][437]LogSavePackage: Save=38.06ms
+[2018.01.29-08.08.26:592][437]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacterA1324B7D42ED04E0D6EAB6A9B5F804D4.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.08.26:594][437]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.16.37:327][316]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-08.16.46:346][371]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/My/MAP/07' took 0.016
+[2018.01.29-08.16.46:349][371]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/My/Blueprints/BP_BoringMachineCamera] ([1] browsable assets)...
+[2018.01.29-08.16.46:349][371]OBJ SavePackage: Finished generating thumbnails for package [/Game/My/Blueprints/BP_BoringMachineCamera]
+[2018.01.29-08.16.46:376][371]LogSavePackage: Save=19.76ms
+[2018.01.29-08.16.46:376][371]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_BoringMachineCamera_Auto1E32066FE40EE258E00C8A6AF6FBD7BF7.tmp' to 'E:/Projects/UE4/BoringMachine/Saved/Autosaves/Game/My/Blueprints/BP_BoringMachineCamera_Auto1.uasset'
+[2018.01.29-08.16.46:377][371]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Saved/Autosaves/Game/My/Blueprints/BP_BoringMachineCamera_Auto1.uasset
+[2018.01.29-08.16.46:377][371]LogFileHelpers: Auto-saving content packages took 0.030
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: request failed, libcurl error: 0 (No error)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 0 (Connection 2 seems to be dead!)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 1 (Closing connection 2)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 3 (  Trying 52.206.89.77...)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (52.206.89.77) port 443 (#3))
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 7 (SSL re-using session ID)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2018.01.29-08.17.44:709][547]LogHttp:Warning: 00000000AF3CFB80: libcurl info message cache 10 (Closing connection 3)
+[2018.01.29-08.17.55:035][577]LogLinker: Can't find file '/Game/My/UI/NewWidgetBlueprint'
+[2018.01.29-08.17.55:035][577]LogLinker: Can't find file '/Game/My/UI/NewWidgetBlueprint'
+[2018.01.29-08.18.06:564][276]LogLinker: Can't find file '/Game/My/UI/EnterBoringTipUI'
+[2018.01.29-08.18.06:565][276]LogLinker: Can't find file '/Game/My/UI/EnterBoringTipUI'
+[2018.01.29-08.18.06:641][276]LogMetaData: Removing '/Game/My/UI/EnterBoringTipUI.SKEL_EnterBoringTipUI_C' ref from Metadata '/Game/My/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.01.29-08.18.06:641][276]LogMetaData: Removing '/Game/My/UI/EnterBoringTipUI.EnterBoringTipUI_C' ref from Metadata '/Game/My/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.01.29-08.18.06:641][276]LogMetaData: Removing '/Game/My/UI/EnterBoringTipUI.EnterBoringTipUI:EventGraph.K2Node_Event_0' ref from Metadata '/Game/My/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.01.29-08.18.06:641][276]LogMetaData: Removing '/Game/My/UI/EnterBoringTipUI.EnterBoringTipUI:EventGraph.K2Node_Event_1' ref from Metadata '/Game/My/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.01.29-08.18.06:641][276]LogMetaData: Removing '/Game/My/UI/EnterBoringTipUI.EnterBoringTipUI:EventGraph.K2Node_Event_2' ref from Metadata '/Game/My/UI/NewWidgetBlueprint.PackageMetaData'
+[2018.01.29-08.18.06:666][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.18.06:673][276]LogSavePackage: Save=5.58ms
+[2018.01.29-08.18.06:673][276]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUIF434FFD7474B942E242F21954273CEB1.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.18.06:676][276]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.18.07:531][324]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.18.07:544][324]LogSavePackage: Save=5.15ms
+[2018.01.29-08.18.07:544][324]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUIB15BE6BB46F32F093B9EC0A161E5E38F.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.18.07:546][324]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.18.54:937][341]LogEditorTransaction: Undo Edit Size To Content
+[2018.01.29-08.18.55:732][341]LogCrashTracker: 
+
+
+[2018.01.29-08.18.55:732][341]LogCrashTracker: 
+
+
+[2018.01.29-08.18.55:732][341]LogWindows:Error: === Critical error: ===
+[2018.01.29-08.18.55:732][341]LogWindows:Error: 
+[2018.01.29-08.18.55:732][341]LogWindows:Error: Fatal error!
+[2018.01.29-08.18.55:732][341]LogWindows:Error: 
+[2018.01.29-08.18.55:732][341]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2018.01.29-08.18.55:732][341]LogWindows:Error: 
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D95D4494
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D961CE50
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000D6D20991
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000D6D255D6
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DBCFEB50
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DBD43D60
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D9D3E10E
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D9D2893F
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DBCE9021
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DBCB840E
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DBCBA006
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DBD455AD
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DBD36518
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Core.dll!0x00000000DFA2149C
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Core.dll!0x00000000DFA0B7D1
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Core.dll!0x00000000DFA233DB
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Core.dll!0x00000000DFA07B22
+[2018.01.29-08.18.55:732][341]LogWindows:Error: USER32.dll!0x0000000077299BBD
+[2018.01.29-08.18.55:732][341]LogWindows:Error: USER32.dll!0x00000000772998C2
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor-Core.dll!0x00000000DFA23CE6
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor.exe!0x000000003FE0DB44
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor.exe!0x000000003FDFF0B0
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor.exe!0x000000003FDFF12A
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor.exe!0x000000003FE10CF9
+[2018.01.29-08.18.55:732][341]LogWindows:Error: UE4Editor.exe!0x000000003FE125F7
+[2018.01.29-08.18.55:732][341]LogWindows:Error: kernel32.dll!0x00000000773959CD
+[2018.01.29-08.18.55:732][341]LogWindows:Error: ntdll.dll!0x00000000774CA561
+[2018.01.29-08.18.55:732][341]LogWindows:Error: ntdll.dll!0x00000000774CA561
+[2018.01.29-08.18.55:732][341]LogWindows:Error: 
+[2018.01.29-08.18.55:746][341]LogExit: Executing StaticShutdownAfterError
+[2018.01.29-08.18.55:750][341]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.01.29-08.18.55:750][341]Log file closed, 01/29/18 16:18:55

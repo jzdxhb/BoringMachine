@@ -1,0 +1,689 @@
+﻿Log file open, 01/29/18 16:19:01
+LogInit:Display: Running engine for game: BoringMachine
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(481120277) SRandInit(481120278).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.080724
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.29-08.19.02:334][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-08.19.02:334][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.29-08.19.02:341][  0]LogInit: Computer: VR1-PC
+[2018.01.29-08.19.02:341][  0]LogInit: User: Vr1
+[2018.01.29-08.19.02:341][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.29-08.19.02:341][  0]LogInit: High frequency timer resolution =3.421933 MHz
+[2018.01.29-08.19.02:341][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.29-08.19.02:341][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-08.19.02:341][  0]LogMemory: Process Physical Memory: 272.73 MB used, 272.73 MB peak
+[2018.01.29-08.19.02:341][  0]LogMemory: Process Virtual Memory: 259.66 MB used, 259.66 MB peak
+[2018.01.29-08.19.02:341][  0]LogMemory: Physical Memory: 3463.48 MB used,  12869.61 MB free, 16333.09 MB total
+[2018.01.29-08.19.02:341][  0]LogMemory: Virtual Memory: 607.47 MB used,  12869.61 MB free, 8388608.00 MB total
+[2018.01.29-08.19.02:411][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.01.29-08.19.02:412][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.01.29-08.19.03:162][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.29-08.19.03:181][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.01.29-08.19.03:181][  0]LogD3D11RHI:       8084/0/7910 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.29-08.19.03:181][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.29-08.19.03:184][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.29-08.19.03:184][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.29-08.19.03:185][  0]LogWindows: EnumDisplayDevices:
+[2018.01.29-08.19.03:185][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.01.29-08.19.03:185][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.29-08.19.03:185][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.29-08.19.03:186][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.01.29-08.19.03:186][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.01.29-08.19.03:186][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.01.29-08.19.03:186][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.01.29-08.19.03:187][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.01.29-08.19.03:187][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.01.29-08.19.03:187][  0]LogD3D11RHI:   Driver Version: 376.33 (internal:21.21.13.7633, unified:376.33)
+[2018.01.29-08.19.03:187][  0]LogD3D11RHI:      Driver Date: 12-11-2016
+[2018.01.29-08.19.03:187][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.29-08.19.03:197][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.29-08.19.03:211][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.29-08.19.03:253][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (E:/Projects/UE4/BoringMachine/Intermediate/Shaders/WorkingDirectory/6620/).
+[2018.01.29-08.19.03:253][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Vr1/AppData/Local/Temp/UnrealShaderWorkingDir/2F08B6734856C2029A88A19CBF4194F2/'.
+[2018.01.29-08.19.03:253][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.29-08.19.04:113][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.29-08.19.04:156][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.29-08.19.04:199][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.29-08.19.04:241][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.29-08.19.04:283][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.29-08.19.04:326][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.29-08.19.04:369][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.29-08.19.04:411][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.29-08.19.04:449][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.29-08.19.04:492][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.29-08.19.04:533][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.29-08.19.04:575][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.29-08.19.04:617][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.29-08.19.04:658][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.29-08.19.04:700][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.29-08.19.04:784][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.29-08.19.04:784][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.29-08.19.04:819][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.29-08.19.04:896][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.29-08.19.04:918][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.29-08.19.04:960][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.29-08.19.05:001][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.29-08.19.05:042][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.29-08.19.05:086][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.29-08.19.05:086][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.29-08.19.05:461][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.29-08.19.05:547][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.29-08.19.05:547][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.29-08.19.05:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Projects/UE4/BoringMachine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.29-08.19.05:547][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.29-08.19.05:547][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Projects/UE4/BoringMachine/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.29-08.19.05:547][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.29-08.19.05:562][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.29-08.19.05:574][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Vr1/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.29-08.19.05:583][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.29-08.19.05:583][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.29-08.19.05:583][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-08.19.05:583][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-08.19.05:897][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-08.19.05:902][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.29-08.19.06:107][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.29-08.19.06:144][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.29-08.19.06:182][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.29-08.19.06:182][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.29-08.19.06:182][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.29-08.19.06:617][  0]LogNetVersion: BoringMachine , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1412956445)
+[2018.01.29-08.19.06:668][  0]LogAssetRegistry: FAssetRegistry took 0.0226 seconds to start up
+[2018.01.29-08.19.06:699][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.015308 seconds
+[2018.01.29-08.19.06:703][  0]LogUObjectArray: 34136 objects as part of root set at end of initial load.
+[2018.01.29-08.19.06:703][  0]LogUObjectAllocator: 7249408 out of 0 bytes used by permanent object pool.
+[2018.01.29-08.19.06:703][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.29-08.19.06:747][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.29-08.19.08:709][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.01.29-08.19.08:730][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.29-08.19.08:759][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.29-08.19.09:195][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.29-08.19.09:535][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.19.09:536][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.19.09:573][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.19.09:610][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.19.10:137][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.29-08.19.10:496][  0]LogEngine: Initializing Engine...
+[2018.01.29-08.19.10:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.29-08.19.10:683][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.29-08.19.10:790][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.29-08.19.10:828][  0]LogInit: XAudio2 using 'Realtek HD Audio 2nd output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.29-08.19.10:844][  0]LogInit: FAudioDevice initialized.
+[2018.01.29-08.19.10:879][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Vr1/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.29-08.19.10:888][  0]LogInit: Texture streaming: Enabled
+[2018.01.29-08.19.10:956][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.29-08.19.10:956][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={217227AB-488E-2150-5E12-4E9A35B6DC68}
+[2018.01.29-08.19.11:136][  0]LogInit: Transaction tracking system initialized
+[2018.01.29-08.19.11:390][  0]BlueprintLog: New page: Editor Load
+[2018.01.29-08.19.12:140][  0]LocalizationService: Info Localization service is disabled
+[2018.01.29-08.19.12:696][  0]LogConsoleResponse:Display: 
+[2018.01.29-08.19.12:830][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.29-08.19.12:830][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.29-08.19.13:217][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/' took 0.01s
+[2018.01.29-08.19.13:633][  0]SourceControl: Info Source control is disabled
+[2018.01.29-08.19.13:706][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.29-08.19.21:169][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.29-08.19.22:175][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.29-08.19.22:175][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-08.19.22:176][  0]LightingResults: New page: Lighting Build
+[2018.01.29-08.19.22:211][  0]MapCheck: New page: Map Check
+[2018.01.29-08.19.22:211][  0]LightingResults: New page: Lighting Build
+[2018.01.29-08.19.22:385][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.01.29-08.19.22:385][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.01.29-08.19.22:389][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-08.19.22:401][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-08.19.22:429][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.689ms to complete.
+[2018.01.29-08.19.22:429][  0]LogFileHelpers: Loading map 'Template_Default' took 0.254
+[2018.01.29-08.19.22:497][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_177c_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_868_0///####STATCAT_Advanced####
+[2018.01.29-08.19.22:497][  0]LogCollectionManager: Loaded 0 collections in 0.001009 seconds
+[2018.01.29-08.19.22:567][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Saved/Collections/' took 0.01s
+[2018.01.29-08.19.22:567][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/Developers/Vr1/Collections/' took 0.01s
+[2018.01.29-08.19.22:567][  0]LogFileCache: Scanning file cache for directory 'E:/Projects/UE4/BoringMachine/Content/Collections/' took 0.01s
+[2018.01.29-08.19.22:567][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.29-08.19.22:575][  0]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2338 classes and 487 folders.
+[2018.01.29-08.19.22:626][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.29-08.19.22:653][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.29-08.19.22:688][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.29-08.19.22:718][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.29-08.19.22:722][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.29-08.19.22:726][  0]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.29-08.19.22:817][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.01.29-08.19.22:897][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.29-08.19.22:954][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.29-08.19.22:954][  0]LogLoad: (Engine Initialization) Total time: 21.77 seconds
+[2018.01.29-08.19.22:954][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2018.01.29-08.19.22:954][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.29-08.19.22:954][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.29-08.19.23:296][  0]LogHMD: Starting GearVRController plugin
+[2018.01.29-08.19.23:314][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.29-08.19.23:348][  0]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-08.19.23:630][  1]LogAssetRegistry: Asset discovery search completed in 16.9813 seconds
+[2018.01.29-08.19.23:631][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.29-08.19.23:631][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2018.01.29-08.19.24:295][  3]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-08.19.26:115][141]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-08.19.26:442][141]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2018.01.29-08.19.26:950][141]LogSlate: Took 0.000092 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.29-08.19.31:892][640]LogConsoleManager:Warning: Performance warning: Console object named 'r.DebugSafeZone.Mode' shows many (500) FindConsoleObject() calls (consider caching e.g. using static)
+[2018.01.29-08.20.49:915][383]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.20.49:929][383]LogSavePackage: Save=6.61ms
+[2018.01.29-08.20.49:929][383]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUI45023D404BC272FCA044448E87E23D14.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.20.49:931][383]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.20.53:132][622]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.20.53:145][622]LogSavePackage: Save=6.11ms
+[2018.01.29-08.20.53:145][622]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUICFCEBA4E42ACBCE28DA7E39AA06A3085.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.20.53:146][622]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.21.49:781][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.21.49:798][277]LogSavePackage: Save=10.30ms
+[2018.01.29-08.21.49:798][277]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUIC9774EEA4CC1AFA88CA52E85EAC09F6E.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.21.49:801][277]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.22.04:131][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.22.04:149][402]LogSavePackage: Save=10.27ms
+[2018.01.29-08.22.04:149][402]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUIC8ABC0254BAC4CE3EC22ECACE15C7E9B.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.22.04:151][402]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.22.36:548][889]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.22.36:565][889]LogSavePackage: Save=9.95ms
+[2018.01.29-08.22.36:565][889]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUIC4D50EC4423024DC8526D1990BC90DBB.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.22.36:566][889]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.22.36:765][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.22.36:782][901]LogSavePackage: Save=9.90ms
+[2018.01.29-08.22.36:782][901]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUI5936E1AC4210B65921091E83229F96B5.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.22.36:783][901]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.22.36:948][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.22.36:966][910]LogSavePackage: Save=9.99ms
+[2018.01.29-08.22.36:966][910]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUI26F4F32C4CCD200BC0759AB9540CF805.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.22.36:967][910]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.22.47:565][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.22.47:582][894]LogSavePackage: Save=10.02ms
+[2018.01.29-08.22.47:582][894]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUI6FC81F654A53F515A2E7B585725CFAD8.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.22.47:584][894]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.22.48:275][947]BlueprintLog: New page: Compile EnterBoringTipUI
+[2018.01.29-08.22.48:370][947]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.29-08.22.48:765][976]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/UI/EnterBoringTipUI" FILE="E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset" SILENT=true
+[2018.01.29-08.22.48:781][976]LogSavePackage: Save=9.40ms
+[2018.01.29-08.22.48:781][976]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/EnterBoringTipUIF05959144798C198C1A433A7148BCFEA.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset'
+[2018.01.29-08.22.48:782][976]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/UI/EnterBoringTipUI.uasset
+[2018.01.29-08.22.54:723][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.22.54:723][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST.uasset.
+[2018.01.29-08.22.54:723][565]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_INST : Can't find file for asset. /Game/Substance_Material/Textures/Other/metal_aluminium_directional
+[2018.01.29-08.22.54:724][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.22.54:724][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST.uasset.
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:729][565]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:729][565]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:729][565]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_metallic
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:729][565]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_normal
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.29-08.22.54:729][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:729][565]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Aluminum_INST_roughness
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.29-08.22.54:730][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_MAT.uasset.
+[2018.01.29-08.22.54:732][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:732][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_basecolor.uasset.
+[2018.01.29-08.22.54:732][565]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_basecolor : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.22.54:733][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:733][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_basecolor.uasset.
+[2018.01.29-08.22.54:734][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:734][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_metallic.uasset.
+[2018.01.29-08.22.54:734][565]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_metallic : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.22.54:734][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:734][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_metallic.uasset.
+[2018.01.29-08.22.54:735][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:735][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_normal.uasset.
+[2018.01.29-08.22.54:735][565]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_normal : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.22.54:735][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:735][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_normal.uasset.
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_roughness.uasset.
+[2018.01.29-08.22.54:737][565]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_INST_roughness : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_INST_roughness.uasset.
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_MAT.uasset.
+[2018.01.29-08.22.54:737][565]LoadErrors:Error: Error /Game/My/Metarial/02/Brushed_Copper_MAT : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:737][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Brushed_Copper_MAT.uasset.
+[2018.01.29-08.22.54:750][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.22.54:750][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset.
+[2018.01.29-08.22.54:750][565]LoadErrors:Error: Error /Game/My/Metarial/02/Trashed_Steel_INST : Can't find file for asset. /Game/Substance_Material/Textures/Other/metal_trashed_steel
+[2018.01.29-08.22.54:750][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.22.54:750][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Trashed_Steel_INST.uasset.
+[2018.01.29-08.22.54:794][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:794][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/12_-_Default.uasset.
+[2018.01.29-08.22.54:794][565]LoadErrors:Error: Error /Game/My/Wajueji_0123/12_-_Default : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.29-08.22.54:795][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:795][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/12_-_Default.uasset.
+[2018.01.29-08.22.54:802][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:802][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/Material__670.uasset.
+[2018.01.29-08.22.54:802][565]LoadErrors:Error: Error /Game/My/Wajueji_0123/Material__670 : Can't find file for asset. /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion
+[2018.01.29-08.22.54:803][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:803][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/Material__670.uasset.
+[2018.01.29-08.22.54:981][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:981][565]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_roughness
+[2018.01.29-08.22.54:981][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:981][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:981][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:981][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:981][565]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_basecolor
+[2018.01.29-08.22.54:982][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:982][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:982][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:982][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:982][565]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_normal
+[2018.01.29-08.22.54:982][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:982][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:982][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:983][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:983][565]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Brushed_Copper_INST.Brushed_Copper_INST Referenced by Brushed_Copper_INST_metallic
+[2018.01.29-08.22.54:983][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:983][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST'
+[2018.01.29-08.22.54:983][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Brushed_Copper_INST' while loading NULL.
+[2018.01.29-08.22.54:984][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:984][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion.Brushed_Copper_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2018.01.29-08.22.54:984][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.22.54:984][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor'
+[2018.01.29-08.22.54:984][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor.Aluminum_INST_basecolor Referenced by MaterialExpressionTextureSampleParameter2D_0
+[2018.01.29-08.22.54:984][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_basecolor' while loading NULL.
+[2018.01.29-08.22.54:984][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal'
+[2018.01.29-08.22.54:984][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_normal.Aluminum_INST_normal Referenced by MaterialExpressionTextureSampleParameter2D_1
+[2018.01.29-08.22.54:984][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_normal' while loading NULL.
+[2018.01.29-08.22.54:984][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness'
+[2018.01.29-08.22.54:984][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_roughness.Aluminum_INST_roughness Referenced by MaterialExpressionTextureSampleParameter2D_2
+[2018.01.29-08.22.54:985][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_roughness' while loading NULL.
+[2018.01.29-08.22.54:985][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic'
+[2018.01.29-08.22.54:985][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_metallic.Aluminum_INST_metallic Referenced by MaterialExpressionTextureSampleParameter2D_3
+[2018.01.29-08.22.54:985][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_metallic' while loading NULL.
+[2018.01.29-08.22.54:985][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion'
+[2018.01.29-08.22.54:985][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion.Aluminum_INST_ambient_occlusion Referenced by MaterialExpressionTextureSampleParameter2D_4
+[2018.01.29-08.22.54:985][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Aluminum_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.22.54:989][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.54:989][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.22.55:016][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion'
+[2018.01.29-08.22.55:016][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/Brushed_Copper_INST_ambient_occlusion' while loading NULL.
+[2018.01.29-08.22.55:034][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.22.55:034][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/metal_trashed_steel.metal_trashed_steel Referenced by Trashed_Steel_INST
+[2018.01.29-08.22.55:034][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading NULL.
+[2018.01.29-08.22.55:034][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_trashed_steel'
+[2018.01.29-08.22.55:035][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_trashed_steel' while loading NULL.
+[2018.01.29-08.22.55:039][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.22.55:039][565]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/metal_aluminium_directional.metal_aluminium_directional Referenced by Aluminum_INST
+[2018.01.29-08.22.55:039][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading NULL.
+[2018.01.29-08.22.55:040][565]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_aluminium_directional'
+[2018.01.29-08.22.55:040][565]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_aluminium_directional' while loading NULL.
+[2018.01.29-08.22.55:176][565]LogMaterial: Missing cached shader map for material Brushed_Copper_MAT, compiling. 
+[2018.01.29-08.22.55:176][565]LogMaterial:Warning: Failed to compile Material /Game/My/Metarial/02/Brushed_Copper_MAT.Brushed_Copper_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-08.22.55:176][565]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.29-08.22.55:178][565]LogMaterial: Missing cached shader map for material Aluminum_MAT, compiling. 
+[2018.01.29-08.22.55:179][565]LogMaterial:Warning: Failed to compile Material /Game/My/Metarial/02/Aluminum_MAT.Aluminum_MAT for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-08.22.55:179][565]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.29-08.22.55:455][565]LogMaterial: Missing cached shader map for material 12_-_Default, compiling. 
+[2018.01.29-08.22.55:455][565]LogMaterial:Warning: Failed to compile Material /Game/My/Wajueji_0123/12_-_Default.12_-_Default for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-08.22.55:455][565]LogMaterial:Warning: 	(Node TextureSampleParameter2D) Param2D> Requires Texture2D
+[2018.01.29-08.22.55:622][565]LogAIModule: Creating AISystem for world 07
+[2018.01.29-08.22.55:681][565]Cmd: MAP LOAD FILE="E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-08.22.55:681][565]LightingResults: New page: Lighting Build
+[2018.01.29-08.22.55:681][565]LoadErrors: New page: Loading map: 07.umap
+[2018.01.29-08.22.55:682][565]MapCheck: New page: Map Check
+[2018.01.29-08.22.55:682][565]LightingResults: New page: Lighting Build
+[2018.01.29-08.22.55:711][565]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-08.22.55:742][565]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-08.22.55:783][565]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.121ms to complete.
+[2018.01.29-08.22.55:783][565]LogFileHelpers: Loading map '07' took 0.103
+[2018.01.29-08.23.00:254][ 57]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.01.29-08.23.04:528][530]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.29-08.23.33:248][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.23.33:296][948]LogSavePackage: Save=39.51ms
+[2018.01.29-08.23.33:296][948]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacterAE1A18064B0EF8B901E42B8C46217253.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.23.33:299][948]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.23.33:983][ 30]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.29-08.23.34:399][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.23.34:444][ 52]LogSavePackage: Save=38.81ms
+[2018.01.29-08.23.34:444][ 52]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter96E53E5148B4565B92E0ACB2D4021D9D.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.23.34:446][ 52]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.23.50:364][951]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.23.50:410][951]LogSavePackage: Save=38.40ms
+[2018.01.29-08.23.50:410][951]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter24A0A44340C34D374957CAB42470ED86.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.23.50:412][951]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.23.55:082][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.23.55:127][502]LogSavePackage: Save=38.49ms
+[2018.01.29-08.23.55:127][502]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter7420C97C4425F5BDC89E98BC44FA0792.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.23.55:130][502]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.24.09:015][165]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.24.09:060][165]LogSavePackage: Save=38.29ms
+[2018.01.29-08.24.09:060][165]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter598814AF428F9A3CEB983FBEE50B518B.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.24.09:061][165]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.24.22:482][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.24.22:527][746]LogSavePackage: Save=37.75ms
+[2018.01.29-08.24.22:527][746]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter9623D0DB47DDCE8A8A4E1C9D9DFC3762.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.24.22:528][746]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.25.03:364][572]Cmd: TRANSACTION UNDO
+[2018.01.29-08.25.03:364][572]LogEditorTransaction: Undo Edit Widget Class
+[2018.01.29-08.25.03:368][572]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2018.01.29-08.25.03:368][572]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2018.01.29-08.25.03:369][572]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2018.01.29-08.25.04:556][694]Cmd: TRANSACTION UNDO
+[2018.01.29-08.25.04:556][694]LogEditorTransaction: Undo Edit Space
+[2018.01.29-08.25.04:559][694]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.01.29-08.25.05:739][832]Cmd: TRANSACTION UNDO
+[2018.01.29-08.25.05:739][832]LogEditorTransaction: Undo Edit Timing Policy
+[2018.01.29-08.25.05:742][832]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.01.29-08.25.07:439][ 33]Cmd: TRANSACTION UNDO
+[2018.01.29-08.25.07:439][ 33]LogEditorTransaction: Undo Edit Timing Policy
+[2018.01.29-08.25.07:442][ 33]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.CollisionCylinder) Component already registered.
+[2018.01.29-08.25.08:086][109]Cmd: TRANSACTION UNDO
+[2018.01.29-08.25.08:086][109]LogEditorTransaction: Undo Rename Component Variable
+[2018.01.29-08.25.08:090][109]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.CharacterMesh0) Component already registered.
+[2018.01.29-08.25.08:090][109]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.CharMoveComp) Component already registered.
+[2018.01.29-08.25.08:091][109]LogActorComponent: ~FComponentReregisterContext: (/Engine/Transient.World_2:PersistentLevel.FirstPersonCharacter_C_0.Arrow) Component already registered.
+[2018.01.29-08.25.14:847][893]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.29-08.25.15:382][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.25.15:428][933]LogSavePackage: Save=38.95ms
+[2018.01.29-08.25.15:428][933]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter1F8DC53840F2387FEE7FA4B7EECC2897.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.25.15:431][933]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.25.25:682][152]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.29-08.25.26:166][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.25.26:213][183]LogSavePackage: Save=40.06ms
+[2018.01.29-08.25.26:213][183]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacterDE6C067E4CB5ACB17D1AD59D02588786.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.25.26:215][183]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.25.34:682][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.25.34:729][183]LogSavePackage: Save=40.04ms
+[2018.01.29-08.25.34:729][183]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacterAD577584420AC1218DC08FA344788313.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.25.34:731][183]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.25.35:281][247]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.29-08.25.35:582][257]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.25.35:628][257]LogSavePackage: Save=39.01ms
+[2018.01.29-08.25.35:628][257]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter940B4EAB41267EFC1781F18831A5760A.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.25.35:630][257]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.25.41:832][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.25.41:879][989]LogSavePackage: Save=39.86ms
+[2018.01.29-08.25.41:879][989]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacterE9ACE40947EE578A7E2957A28A624A94.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.25.41:882][989]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.25.42:681][ 83]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.29-08.25.43:032][ 99]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.25.43:078][ 99]LogSavePackage: Save=39.17ms
+[2018.01.29-08.25.43:078][ 99]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter58D0CE654A899555CB899590E0C17967.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.25.43:080][ 99]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.26.02:916][433]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.29-08.26.07:566][983]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.29-08.26.07:965][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.26.08:011][  4]LogSavePackage: Save=38.31ms
+[2018.01.29-08.26.08:011][  4]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacterC92FC16843DA1D52291B6EA67C47BCD5.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.26.08:013][  4]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.26.11:585][427]LogRenderer: Reallocating scene render targets to support 1208x712 NumSamples 1 (Frame:1).
+[2018.01.29-08.26.16:949][ 55]BlueprintLog: New page: Compile FirstPersonCharacter
+[2018.01.29-08.26.17:599][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/FirstPersonCharacter" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset" SILENT=true
+[2018.01.29-08.26.17:644][114]LogSavePackage: Save=38.13ms
+[2018.01.29-08.26.17:644][114]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/FirstPersonCharacter044117EE4B0F198EC95D4CBBB5BC2EDC.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset'
+[2018.01.29-08.26.17:647][114]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/FirstPersonCharacter.uasset
+[2018.01.29-08.26.22:790][693]LogEditorViewport: Clicking on Actor (LMB): BP_Wajueji_C (BP_Wajueji)
+[2018.01.29-08.26.22:864][693]LogSlate: Took 0.002154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.01.29-08.26.30:719][302]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.01.29-08.26.32:427][401]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Aluminum_INST'
+[2018.01.29-08.26.32:427][401]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Aluminum_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST_metallic.uasset.
+[2018.01.29-08.26.32:427][401]LoadErrors:Error: Error /Game/My/Metarial/02/Aluminum_INST_metallic : Can't find file for asset. /Game/Substance_Material/Materials/Metal/Aluminum_INST
+[2018.01.29-08.26.32:427][401]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Aluminum_INST'
+[2018.01.29-08.26.32:427][401]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Aluminum_INST' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/02/Aluminum_INST_metallic.uasset.
+[2018.01.29-08.26.32:427][401]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Aluminum_INST'
+[2018.01.29-08.26.32:427][401]LoadErrors: Info Failed to load /Game/Substance_Material/Materials/Metal/Aluminum_INST.Aluminum_INST Referenced by Aluminum_INST_metallic
+[2018.01.29-08.26.32:427][401]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Aluminum_INST' while loading NULL.
+[2018.01.29-08.26.32:427][401]LogLinker:Warning: Can't find file '/Game/Substance_Material/Materials/Metal/Aluminum_INST'
+[2018.01.29-08.26.32:428][401]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Materials/Metal/Aluminum_INST' while loading NULL.
+[2018.01.29-08.26.44:428][219]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_meteoric_iron'
+[2018.01.29-08.26.44:428][219]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_meteoric_iron' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/03/Metal_Meteoric_Iron_INST.uasset.
+[2018.01.29-08.26.44:428][219]LoadErrors:Error: Error /Game/My/Metarial/03/Metal_Meteoric_Iron_INST : Can't find file for asset. /Game/Substance_Material/Textures/Other/metal_meteoric_iron
+[2018.01.29-08.26.44:428][219]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_meteoric_iron'
+[2018.01.29-08.26.44:428][219]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_meteoric_iron' while loading E:/Projects/UE4/BoringMachine/Content/My/Metarial/03/Metal_Meteoric_Iron_INST.uasset.
+[2018.01.29-08.26.44:429][219]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_meteoric_iron'
+[2018.01.29-08.26.44:429][219]LoadErrors: Info Failed to load /Game/Substance_Material/Textures/Other/metal_meteoric_iron.metal_meteoric_iron Referenced by Metal_Meteoric_Iron_INST
+[2018.01.29-08.26.44:429][219]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_meteoric_iron' while loading NULL.
+[2018.01.29-08.26.44:429][219]LogLinker:Warning: Can't find file '/Game/Substance_Material/Textures/Other/metal_meteoric_iron'
+[2018.01.29-08.26.44:429][219]LogLinker:Warning: Can't find file for asset '/Game/Substance_Material/Textures/Other/metal_meteoric_iron' while loading NULL.
+[2018.01.29-08.26.44:519][220]LogMaterial: Missing cached shader map for material Metal_Meteoric_Iron1, compiling. 
+[2018.01.29-08.26.54:924][119]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:EventGraph.K2Node_Event_0' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:InpAxisEvt_RotateVertical_K2Node_InputAxisEvent_35' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:GetPlayerControllerPossess.K2Node_FunctionEntry_403' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:GiveUpPlayerController.K2Node_FunctionEntry_497' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:InpAxisEvt_RotateHorizontal_K2Node_InputAxisEvent_14' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:InpAxisEvt_MoveVertical_K2Node_InputAxisEvent_0' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:BndEvt__20180123_zhuanlun_001_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:BndEvt__20180123_zhuanlun_001_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:ExecuteUbergraph_BP_Wajueji' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:UserConstructionScript' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:ReceiveTick' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:Box' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:zuantouParticaleSystem' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_zhuanlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180124_qianzhilun4' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180124_qianzhilun3' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180124_qianzhilun2' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180124_qianzhilun1' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180124_zhuanlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0016' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0017' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0018' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0019' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0015' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0014' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0012' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0013' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_0011' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_shoubing1_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_houlunzi_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_qianlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_liantiao_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_xinglun2_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_xinglun1_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:20180123_houlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:main' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:DefaultSceneRoot' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:DrillRotateSpeedLine' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:moveMaxSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:armrotateSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:drillWork' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:drillRotateSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:drillVerticalMinAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:drillVerticalMaxAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:drillHorizontalMinAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:drillHorizontalMaxAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:curMoveSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:moveSpeedDamp' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:wall' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:isInWall' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:armRotateDamp' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:moveSpeedLerpValue' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:DrillRot.K2Node_FunctionEntry_29' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji_C:engineIsStart' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:ResetAllDampPrameter.K2Node_FunctionEntry_226' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:BreakTheWall.K2Node_FunctionEntry_151' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:SmokeSwitch.K2Node_FunctionEntry_302' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:DrillIsInWall.K2Node_FunctionEntry_378' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:BoringMachineMovement.K2Node_FunctionEntry_548' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:DrillIsInWall.K2Node_FunctionResult_1' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.BP_Wajueji:StartOrStopEngine.K2Node_FunctionEntry_718' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:engineIsStart' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:moveSpeedLerpValue' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:armRotateDamp' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:isInWall' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:wall' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:moveSpeedDamp' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:curMoveSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:drillHorizontalMaxAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:drillHorizontalMinAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:drillVerticalMaxAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:drillVerticalMinAngle' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:drillRotateSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:drillWork' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:armrotateSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:moveMaxSpeed' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:DrillRotateSpeedLine' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:DefaultSceneRoot' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:main' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_houlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:795][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_xinglun1_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_xinglun2_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_liantiao_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_qianlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_houlunzi_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0011' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0013' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0012' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0014' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0015' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0019' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0018' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0017' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_shoubing1_0016' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180124_zhuanlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180124_qianzhilun1' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180124_qianzhilun2' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180124_qianzhilun3' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180124_qianzhilun4' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:20180123_zhuanlun_001' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:zuantouParticaleSystem' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:Box' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:ReceiveTick' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:UserConstructionScript' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:ExecuteUbergraph_BP_Wajueji' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:BndEvt__20180123_zhuanlun_001_K2Node_ComponentBoundEvent_1_ComponentEndOverlapSignature__DelegateSignature' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:BndEvt__20180123_zhuanlun_001_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:InpAxisEvt_MoveVertical_K2Node_InputAxisEvent_0' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:InpAxisEvt_RotateHorizontal_K2Node_InputAxisEvent_14' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C:InpAxisEvt_RotateVertical_K2Node_InputAxisEvent_35' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:796][334]LogMetaData: Removing '/Game/My/Blueprints/BP_Wajueji.SKEL_BP_Wajueji_C' ref from Metadata '/Game/My/Wajueji_0123/BP_Wajueji.PackageMetaData'
+[2018.01.29-08.27.05:827][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Blueprints/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Blueprints/BP_Wajueji.uasset" SILENT=true
+[2018.01.29-08.27.06:036][334]LogSavePackage: Save=207.26ms
+[2018.01.29-08.27.06:036][334]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji6042E2664284E2F3C016CDADE920A8EF.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Blueprints/BP_Wajueji.uasset'
+[2018.01.29-08.27.06:038][334]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Blueprints/BP_Wajueji.uasset
+[2018.01.29-08.27.06:042][334]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/Wajueji_0123/BP_Wajueji" FILE="E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset" SILENT=true
+[2018.01.29-08.27.06:052][334]LogSavePackage: Save=1.19ms
+[2018.01.29-08.27.06:052][334]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/BP_Wajueji1F9C654D42B45DBE4BA548A26122A70D.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset'
+[2018.01.29-08.27.06:054][334]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/Wajueji_0123/BP_Wajueji.uasset
+[2018.01.29-08.27.07:715][477]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.29-08.27.08:327][477]LogSavePackage: Save=590.58ms
+[2018.01.29-08.27.08:327][477]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/076E6AC6CD45858AE7CEF1FCB734FB9C62.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.29-08.27.08:331][477]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap
+[2018.01.29-08.27.16:881][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/My/MAP/07" FILE="E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.29-08.27.17:491][298]LogSavePackage: Save=590.61ms
+[2018.01.29-08.27.17:491][298]LogSavePackage: Moving 'E:/Projects/UE4/BoringMachine/Saved/07C9D488BC4C1480880281DD979B175449.tmp' to 'E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap'
+[2018.01.29-08.27.17:493][298]LogSavePackage:Display: Finished SavePackage E:/Projects/UE4/BoringMachine/Content/My/MAP/07.umap
+[2018.01.29-08.27.34:747][902]LogCrashTracker: 
+
+
+[2018.01.29-08.27.34:747][902]LogCrashTracker: 
+
+
+[2018.01.29-08.27.34:747][902]LogWindows:Error: === Critical error: ===
+[2018.01.29-08.27.34:747][902]LogWindows:Error: 
+[2018.01.29-08.27.34:747][902]LogWindows:Error: Fatal error!
+[2018.01.29-08.27.34:747][902]LogWindows:Error: 
+[2018.01.29-08.27.34:747][902]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffff
+[2018.01.29-08.27.34:747][902]LogWindows:Error: 
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-CoreUObject.dll!0x00000000E7186995
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UMG.dll!0x00000000D822C60A
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UMG.dll!0x00000000D82ACB03
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-Sequencer.dll!0x00000000D4AB089C
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-Sequencer.dll!0x00000000D4AA4D13
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-MovieSceneTools.dll!0x00000000D5188227
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-MovieSceneTools.dll!0x00000000D523CA92
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-MovieSceneTools.dll!0x00000000D51D8602
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-Sequencer.dll!0x00000000D4A764F0
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-MovieSceneTools.dll!0x00000000D5192BE3
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-MovieSceneTools.dll!0x00000000D525B325
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-MovieSceneTools.dll!0x00000000D51DFAF6
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D94114E7
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D9BE483B
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D9C2124D
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D989A151
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D987E76E
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-UnrealEd.dll!0x00000000D9BD4FCE
+[2018.01.29-08.27.34:747][902]LogWindows:Error: UE4Editor-Engine.dll!0x00000000DC95E9BA
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DFC60CC4
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DFA09E9C
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DF9D9835
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DFA7E5E2
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DFA6720F
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Slate.dll!0x00000000DFA58391
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Core.dll!0x00000000DF14175B
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Core.dll!0x00000000DF12B7D1
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Core.dll!0x00000000DF1433DB
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Core.dll!0x00000000DF127B22
+[2018.01.29-08.27.34:748][902]LogWindows:Error: USER32.dll!0x0000000077299BBD
+[2018.01.29-08.27.34:748][902]LogWindows:Error: USER32.dll!0x00000000772998C2
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor-Core.dll!0x00000000DF143CE6
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor.exe!0x000000003F68DB44
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor.exe!0x000000003F67F0B0
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor.exe!0x000000003F67F12A
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor.exe!0x000000003F690CF9
+[2018.01.29-08.27.34:748][902]LogWindows:Error: UE4Editor.exe!0x000000003F6925F7
+[2018.01.29-08.27.34:748][902]LogWindows:Error: kernel32.dll!0x00000000773959CD
+[2018.01.29-08.27.34:748][902]LogWindows:Error: ntdll.dll!0x00000000774CA561
+[2018.01.29-08.27.34:748][902]LogWindows:Error: ntdll.dll!0x00000000774CA561
+[2018.01.29-08.27.34:748][902]LogWindows:Error: 
+[2018.01.29-08.27.34:755][902]LogExit: Executing StaticShutdownAfterError
+[2018.01.29-08.27.34:759][902]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.01.29-08.27.34:759][902]Log file closed, 01/29/18 16:27:34
